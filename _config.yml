@@ -1,0 +1,79 @@
+### Site Settings ###
+title               : Benjamin Bispings Research
+description         : ""
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+url                 : "https://bbisping.de"
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+### Plugins ###
+plugins:
+  - jekyll-remote-theme
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/projects.html
+
+### Author Info ###
+author:
+  name              : Benjamin Bisping
+  email             : benjamin.bisping@tu-berlin.de
+  github            : benkeks
+  twitter           : benkeks
+  homepage          : https://www.mtv.tu-berlin.de/menue/organisation/team/bisping_wm/
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /:name
+
+### Disqus ###
+# disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+  - docs

@@ -1,0 +1,50 @@
+{% assign product = include.product %}
+
+<div class="product product-reference">
+{% case product.kind %}
+  {% when "paper" %}
+  <i class="fas fa-scroll"></i>
+  {% when "article" %}
+  <i class="fas fa-book-open"></i>
+  {% when "thesis" %}
+  <i class="fas fa-book"></i>
+  {% when "tool" %}
+  <i class="fas fa-tools"></i>
+  {% when "talk" %}
+  <i class="fas fa-volume-up"></i>
+  {% when "course" %}
+  <i class="fas fa-chalkboard-teacher"></i>
+  {% when "contribution" %}
+  <i class="fas fa-sign-in-alt"></i>
+  {% when "supervision" %}
+  <i class="fas fa-hand-point-right"></i>
+  {% when "artifact" %}
+  <i class="fas fa-archive"></i>
+  {% else %}
+  <i class="fas fa-vector-square"></i>
+{% endcase %}
+{% if product.url %}
+<span class="product-title"><a href="{{product.url}}">{{product.title}}</a></span>
+{% else %}
+<span class="product-title">{{product.title}}</span>
+{% endif %}
+{% if product.venue_url %}
+<span class="product-venue"><a href="{{product.venue_url}}">{{product.venue}}</a></span>
+{% else %}
+<span class="product-venue">{{product.venue}}</span>
+{% endif %}
+{% if product.source %}
+<a href="{{product.source}}" title="Source"><i class="fab fa-github"></i></a>
+{% endif %}
+{% if product.poster %}
+<a href="{{product.poster}}" title="Poster"><i class="far fa-image"></i></a>
+{% endif %}
+{% if product.authors %}
+<span class="product-authors">{{ product.authors | join: ", " }}</span>
+{% endif %}
+{% if product.supervisors %}
+<span class="product-supervisors">Supervisors: {{ product.supervisors | join: ", " }}</span>
+{% endif %}
+<span class="product-date">({{ product.date | date: "%Y-%m" }})</span> 
+
+</div>

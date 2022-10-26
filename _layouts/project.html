@@ -1,0 +1,61 @@
+---
+layout: page
+---
+
+{%- assign project_id = page.name | slugify -%}
+
+<div class="jumbotron-background" style="background-image: url({{ page.image }})">
+  <div class="jumbotron">
+    <h1><strong>{{ page.name }}</strong>
+      {%- if page.play_url -%}
+      {% include elements/button.html link=page.play_url text="Play" style="primary" size="lg" target="_blank"%}
+      {%- endif -%}
+    </h1>
+    <p class="lead">{{ page.tagline }}</p>
+    <hr class="my-4">
+    <p id="{{ project_id }}-tools" class="post-metadata">
+      {{ page.term }}
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm">
+    <a href="{{ page.image }}"><img src="{{ page.image }}" class="img-fluid modysy-screenshot" alt="Image of {{ page.name }}"></a>
+    <dl class="row">
+      {%- if page.credits -%}
+      <dt class="col-sm-4">Team</dt>
+      <dd class="col-sm-6">
+        <ul class="list-inline modysy-credits">
+          {%- for person in page.credits -%}
+          <li class="list-inline-item">{{ person }}</li>
+          {%- endfor -%}
+        </ul>
+      </dd>
+      {%- endif -%}
+      {%- if page.tech -%}
+      <dt class="col-sm-4">Formalismus</dt>
+      <dd class="col-sm-6">
+        <span class="badge badge-pill text-primary border border-primary ml-1 modysy-tech">{{ page.formalism }}</span>
+      </dd>
+      {%- endif -%}
+      {%- if page.tech -%}
+      <dt class="col-sm-4">Technologie</dt>
+      <dd class="col-sm-6">
+        {%- for tech in page.tech -%}
+        <span class="badge badge-pill text-secondary border border-secondary ml-1 modysy-tech">{{ tech }}</span>
+        {%- endfor -%}
+      </dd>
+      {%- endif -%}
+    </dl>
+    {%- if page.play_url -%}
+    {% include elements/button.html link=page.play_url text="Play in browser" style="secondary" size="md" target="_blank"%}
+    {%- endif -%}
+    {%- if page.source_url -%}
+    {% include elements/button.html link=page.source_url text="Source" style="secondary" size="md" target="_blank" title=page.source_remark%}
+    {%- endif -%}
+    <div style="margin-bottom: 2em;"></div>
+  </div>
+  <div class="col-sm-6">
+    {{ content }}
+  </div>
+</div>

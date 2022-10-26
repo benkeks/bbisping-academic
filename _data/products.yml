@@ -1,0 +1,533 @@
+
+- id: wise10-mpgi1
+  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  kind: course
+  supervisors: [Peter Pepper]
+  date: 2010-10
+  venue: ÜBB TU Berlin
+  venue_url: https://www.uebb.tu-berlin.de/
+  area: functional-programming
+- id: sose11-mpgi2
+  title: "Data structures and algorithms in imperative programming (Exercise)"
+  kind: course
+  supervisors: [Oliver Brock]
+  date: 2011-04
+  venue: RBO TU Berlin
+  venue_url: https://www.robotics.tu-berlin.de/
+  area: software-engineering
+- id: pes11-tcsp2ta
+  title: "tcsp2ta: Automatic translation of Timed CSP to Timed Automata"
+  kind: tool
+  supervisors: [Thomas Göthel, Sabine Glesner]
+  date: 2011-05
+  venue: DFG Project VATES
+  venue_url: https://gepris.dfg.de/gepris/projekt/20128325/ergebnisse
+  area: timed-systems
+  tech: [java, tcsp, timed-automata, fdr, uppaal]
+- id: wise11-mpgi1
+  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  kind: course
+  supervisors: [Sabine Glesner]
+  date: 2011-10
+  venue: SESE TU Berlin
+  venue_url: https://www.sese.tu-berlin.de/
+  area: functional-programming
+- id: sose12-mpgi2
+  title: "Data structures and algorithms in imperative programming (Exercise)"
+  kind: course
+  supervisors: [Oliver Brock]
+  date: 2012-04
+  venue: RBO TU Berlin
+  venue_url: https://www.robotics.tu-berlin.de/
+  area: software-engineering
+- id: goethel12-tcsp2ta
+  title: "Mechanical Verification of Parameterized Real-Time Systems"
+  kind: contribution
+  description: "Chapter 6 reports on my translation tools from Timed CSP to Uppaal Timed Automata and to FDR-compatible TockCSP"
+  authors: [Thomas Göthel]
+  url: https://depositonce.tu-berlin.de/bitstream/11303/3545/1/Dokument_15.pdf
+  date: 2012-05
+  venue: SESE TU Berlin
+  venue_url: https://www.sese.tu-berlin.de/
+  area: timed-systems
+- id: wise12-mpgi1
+  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  kind: course
+  supervisors: [Peter Pepper]
+  date: 2012-10
+  venue: ÜBB TU Berlin
+  venue_url: https://www.uebb.tu-berlin.de/
+  area: functional-programming
+- id: sose13-mpgi2
+  title: "Data structures and algorithms in imperative programming (Exercise)"
+  kind: course
+  supervisors: [Marc Alexa]
+  date: 2013-04
+  venue: CG TU Berlin
+  venue_url: https://www.cg.tu-berlin.de/
+  area: software-engineering
+- id: compiler13-sl2
+  title: "SL2 Module System"
+  kind: tool
+  description: "We extended the functional language SL2, which compiles to JS, by a require.js-compatible module system"
+  url: https://github.com/choeger/sl2/raw/master/doc/report/report.pdf
+  source:  https://github.com/choeger/sl2
+  authors: [Benjamin Bisping, Rico Jasper, Sebastian Lohmeier, Friedrich Psiorz]
+  supervisors: [Christoph Höger]
+  date: 2013-07
+  venue: ÜBB TU Berlin
+  area: functional-programming
+  tech: [scala, javascript]
+- id: wise13-mpgi1
+  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  kind: course
+  supervisors: [Sabine Glesner]
+  date: 2013-10
+  venue: SESE TU Berlin
+  venue_url: https://www.sese.tu-berlin.de/
+  area: functional-programming
+- id: kuefner13-distributed-algorithms
+  title: Modeling and verification of distributed algorithms in theorem proving environments
+  kind: contribution
+  authors: ["Philipp Küfner"]
+  url: https://doi.org/10.14279/depositonce-3974
+  venue: "TU Berlin"
+  date: 2013-09
+  tech: [isabelle]
+  area: consensus
+- id: bachelor14-modlang-cfa
+  title: "Implementing Control Flow Analysis for a Functional Language with First-Class Modules"
+  kind: thesis
+  description: "For my bachelor's thesis, I devised a static analysis of the call graph for ModLang, a language with first-class modules."
+  supervisors: [Peter Pepper, Stefan Jähnichen]
+  date: 2014-04
+  venue: TU Berlin
+  area: functional-programming
+  tech: [scala, cfa]
+- id: afp16-flp
+  title: A Constructive Proof for FLP
+  kind: artifact
+  authors: ["Benjamin Bisping", "Paul-David Brodmann", "Tim Jungnickel", "Christina Rickmann", "Henning Seidler", "Anke Stüber", "Arno Wilhelm-Weidner", "Kirstin Peters", "Uwe Nestmann"] 
+  url: https://www.isa-afp.org/entries/FLP.html
+  venue: "AFP 2016"
+  date: 2016-05
+  tech: [isabelle]
+  area: consensus
+- id: soamed16-hdes
+  title: "HDES Tool – Analyzing Higher-order Dynamic-causality Event Structures"
+  kind: tool
+  url: http://hdes.mtv.tu-berlin.de/
+  date: 2016-07
+  supervisors: ["David S. Karcher"]
+  venue: DFG Graduiertenkolleg SOAMED
+  venue_url: https://gepris.dfg.de/gepris/projekt/158230677
+  area: event-structures
+- id: itp16-flp
+  title: Mechanical Verification of a Constructive Proof for FLP
+  kind: paper
+  authors: ["Benjamin Bisping", "Paul-David Brodmann", "Tim Jungnickel", "Christina Rickmann", "Henning Seidler", "Anke Stüber", "Arno Wilhelm-Weidner", "Kirstin Peters", "Uwe Nestmann"] 
+  url: https://doi.org/10.1007/978-3-319-43144-4_7
+  venue: "ITP 2016, LNCS 9807"
+  venue_url: https://itp2016.inria.fr/program/
+  date: 2016-08
+  tech: [isabelle]
+  area: consensus
+- id: dcon17-hdes
+  title: "Tooltorial for HD-Event Structures"
+  kind: talk
+  date: 2017-03-09
+  authors: ["Benjamin Bisping", "Paul-David Brodmann", "David S. Karcher"]
+  venue: D-CON 2017, Paderborn
+  venue_url: https://en.cs.uni-paderborn.de/sms/d-con
+  area: event-structures
+- id: karcher17-hdes
+  title: "Event Structures with Higher-Order Dynamics"
+  kind: contribution
+  authors: [David S. Karcher]
+  url: https://doi.org/10.14279/depositonce-6989
+  date: 2017-12
+  venue: TU Berlin
+  area: event-structures
+- id: saar17-coupledsim
+  title: "Coupled Similarity"
+  kind: talk
+  url: https://prezi.com/dmq-qu6po-to/coupled-similarity-2/
+  date: 2017-12-12
+  venue: Dependable Systems and Software, Uni Saarland
+  venue_url: https://depend.cs.uni-saarland.de/
+  area: weak-equivalences
+- id: dcon18-coupledsim
+  title: "Computing Coupled Similarity – When Weak Bisimulation Is Too Strong"
+  kind: talk
+  url: https://prezi.com/xla2dt7axgg2/coupled-similarity-d-con/
+  date: 2018-03-01
+  venue: D-CON 2018, Darmstadt
+  venue_url: https://www.es.tu-darmstadt.de/d-con-2018/program
+  area: weak-equivalences
+- id: master18-coupledsim
+  title: Computing Coupled Similarity
+  kind: thesis
+  url: https://coupledsim.bbisping.de/bisping_computingCoupledSimilarity_thesis.pdf
+  venue: TU Berlin
+  supervisors: [Uwe Nestmann, Holger Hermanns]
+  tags: [coupled similarity, game characterization]
+  tech: [reachability games, bisimulation reduction, coinduction, isabelle, scala]
+  date: 2018-04
+  area: weak-equivalences
+- id: tool18-coupledsim
+  title: Coupled Sim Fiddle
+  kind: tool
+  date: 2018-03
+  url: https://coupledsim.bbisping.de/
+  source: https://github.com/benkeks/coupled-similarity
+  tech: [scala, javascript]
+  area: weak-equivalences
+- id: wise18-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  supervisors: [Uwe Nestmann]
+  date: 2018-10
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+- id: tacas19-coupledsim
+  title: Computing Coupled Similarity
+  kind: paper
+  authors: [Benjamin Bisping, Uwe Nestmann]
+  url: https://doi.org/10.1007/978-3-030-17462-0_14
+  venue: "TACAS 2019, LNCS 11427"
+  date: 2019-04
+  tech: [reachability games, coinduction]
+  tags: [coupled similarity, game characterization]
+  area: weak-equivalences
+- id: tacas19-coupledsim-artifact
+  title: Isabelle/HOL proof and Apache Flink program for TACAS 2019 paper
+  kind: artifact
+  url: https://doi.org/10.6084/m9.figshare.7831382.v1
+  venue: Figshare
+  date: 2019-03
+  tech: [isabelle, scala, apache-flink]
+  tags: [coupled similarity]
+  area: weak-equivalences
+- id: tacas19-coupledsim-talk
+  title: Computing Coupled Similarity
+  kind: talk
+  url: https://prezi.com/7i7amxupxqyl/coupled-similarity-tacas-2019/
+  poster: TODO
+  date: 2019-04-08
+  venue: "TACAS 2019, Prague"
+  venue_url: https://conf.researchr.org/track/etaps-2019/tacas-2019-papers?date=Mon%208%20Apr%202019#program
+  area: weak-equivalences
+- id: sose19-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2019-04
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+- id: sose19-isalab
+  title: "Introduction into interactive theorem proving (Isabelle-Lab)"
+  kind: course
+  date: 2019-08
+  authors: [Florian Kammüller, Benjamin Bisping]
+  url: https://www.mtv.tu-berlin.de/menue/lehre/module/isabellelab/
+  venue: MTV TU Berlin
+  tags: [isabelle]
+  area: functional-programming
+- id: wise19-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2019-10
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+- id: dcon20-countercactuals
+  title: Counterfactuals, Dispositions, and Hyperproperties
+  kind: talk
+  url: https://prezi.com/ncmy_agciacb/counterfactuals-dispositions-hyperproperties/
+  date: 2020-03-12
+  venue: "D-CON 2020"
+  venue_url: https://www.uni-due.de/theoinf/research/dcon2020.php
+  area: timed-systems
+- id: sose20-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2020-04
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+- id: ba2020-dp
+  title: "Process equivalences as a video game"
+  authors: Dominik Peacock
+  kind: supervision
+  date: 2020-05
+  url: https://www.concurrency-theory.org/rvg-game/
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Manfred Hauswirth]
+  tags: [coupled-similarity]
+  tech: [unity, csharp]
+  area: weak-equivalences
+- id: ba2020-nl
+  title: "Implementing Coupled Similarity as an automated checker for mCRL2"
+  authors: Hùòng Ngoc Lê
+  kind: supervision
+  date: 2020-05
+  url: https://github.com/mCRL2org/mCRL2/pull/1619
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [coupled-similarity]
+  tech: ["cpp", "mcrl2"]
+  area: weak-equivalences
+- id: tool20-spectroscope
+  title: "Linear-time–Branching-time Spectroscope"
+  kind: tool
+  url: https://concurrency-theory.org/ltbt-spectroscope/
+  source: https://github.com/benkeks/equivalence-fiddle/
+  date: 2020-08
+  tags: [equivalence-spectrum, game characterization]
+  tech: [scala, javascript]
+  area: equivalences
+- id: ba2020-mw
+  title: "Ein Computerspiel zum Erlernen von Verhaltensäquivalenzen"
+  authors: Michael Wrusch
+  kind: supervision
+  date: 2020-09
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Manfred Hauswirth]
+  tech: ["unity", "csharp"]
+  area: equivalences
+- id: sose20-isalab
+  title: "Introduction into interactive theorem proving (Isabelle-Lab)"
+  kind: course
+  date: 2020-09
+  authors: [Florian Kammüller, Benjamin Bisping]
+  url: https://www.mtv.tu-berlin.de/menue/lehre/module/isabellelab/
+  venue: MTV TU Berlin
+  tags: [isabelle]
+  area: functional-programming
+- id: airvg20-coupledsim32years
+  title: "Coupled Similarity: The First 32 Years"
+  kind: article
+  authors: [Benjamin Bisping, Uwe Nestmann, Kirstin Peters]
+  url: https://doi.org/10.1007/s00236-019-00356-4
+  date: 2020-10
+  venue: Acta Informatica 57(3)
+  venue_url: https://link.springer.com/journal/236/volumes-and-issues/57-3
+  tags: [coupled similarity, game characterization, axiomatization]
+  area: weak-equivalences
+- id: ba2020-jr
+  title: "Visualising and Model Checking Counterfactuals"
+  authors: Jannik Moritz Reichert
+  kind: supervision
+  date: 2020-09
+  url: https://counterfactuals.org/
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [counterfactuals]
+  tech: ["typsescript", "angular"]
+  area: timed-systems
+- id: wise20-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2020-10
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+- id: ba2020-tw
+  title: "Charting the jungle of process calculi encodings"
+  authors: Tobias Wittig
+  kind: supervision
+  date: 2020-12
+  url: https://concurrency-theory.org/process-jungle/
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Kirstin Peters]
+  tags: [encodings]
+  tech: ["javascript"]
+  area: equivalences
+- id: tacas21-spectroscopy-artifact
+  title: "Linear-time–Branching-time Spectroscope: TACAS 2021 Edition"
+  kind: artifact
+  url: https://doi.org/10.5281/zenodo.4475878
+  date: 2021-01
+  venue: Zenodo
+  tags: [equivalence-spectrum, game characterization]
+  tech: [scala, javascript]
+  area: equivalences
+- id: ba2021-jb
+  title: "Statically analysing inter-process communication in Elixir programs"
+  authors: Jonas Bulik
+  kind: supervision
+  date: 2021-01
+  url: https://gitlab.com/MrGreenTea/stille-post
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Florian Kammüller]
+  tags: ["static-analysis"]
+  tech: ["elixir", "cfa"]
+  area: functional-programming
+- id: tacas21-spectroscopy-game
+  title: "A Game for Linear-time–Branching-time Spectroscopy"
+  kind: paper
+  authors: [Benjamin Bisping, Uwe Nestmann]
+  url: https://doi.org/10.1007/978-3-030-72016-2_1
+  date: 2021-03
+  venue: TACAS 2021, LNCS 12651
+  tags: [equivalence-spectrum, game characterization]
+  area: equivalences
+- id: tacas21-spectroscopy-talk
+  title: "Video: A Game for Linear-time–Branching-time Spectroscopy"
+  kind: talk
+  authors: [Benjamin Bisping]
+  url: https://doi.org/10.26226/morressier.604907f41a80aac83ca25ce7
+  poster: https://ng-submission-additional-files.s3.eu-central-1.amazonaws.com/ETAPS2021/604907f41a80aac83ca25ce7/files/LTBT-Spectroscopy-Talk-Graphics.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW6F77ISNQMTJJGK%2F20221025%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20221025T182051Z&X-Amz-Expires=14400&X-Amz-Signature=7a83c110fb0c617c44dc207af07240ebf3d6ae71fe8af598cf2a4dc65830da72&X-Amz-SignedHeaders=host
+  date: 2021-03-29
+  venue: TACAS 2021, Morressier
+  venue_url: https://etaps.org/2021/tacas/tacas-programme
+  tags: [equivalence-spectrum, game characterization]
+  area: equivalences
+- id: sose21-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2021-04
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+- id: ba2021-lm
+  title: "Kontrasimulation als Spiel"
+  authors: Luisa Montanari
+  kind: supervision
+  date: 2021-05
+  url: https://arxiv.org/abs/2108.10492
+  source: https://github.com/luisamontanari/ContrasimGame
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [contrasimilarity]
+  tech: ["isabelle"]
+  area: weak-equivalences
+- id: ba2021-mp
+  title: "Reducing Strong Reactive Bisimilarity to Strong Bisimilarity"
+  authors: Maximilian Pohlmann
+  kind: supervision
+  date: 2021-06
+  url: https://maxpohlmann.github.io/Reducing-Reactive-to-Strong-Bisimilarity/thesis.pdf
+  source: https://github.com/maxpohlmann/Reducing-Reactive-to-Strong-Bisimilarity
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [reactive bisimilarity]
+  tech: ["isabelle"]
+  area: timed-systems
+- id: expresssos21-contrasim-game
+  title: "A Game Characterization for Contrasimilarity"
+  kind: paper
+  authors: [Benjamin Bisping, Luisa Montanari]
+  url: https://doi.org/10.4204/EPTCS.339.5
+  date: 2021-08
+  venue: EXPRESS/SOS 2021, EPTCS 339
+  venue_url: http://icetcs.ru.is/express-sos2021/
+  tags: [contrasimilarity, game characterization]
+  area: weak-equivalences
+
+- id: sose19-isalab
+  title: "Introduction into interactive theorem proving (Isabelle-Lab)"
+  kind: course
+  date: 2021-09
+  authors: [Florian Kammüller, Benjamin Bisping]
+  url: https://www.mtv.tu-berlin.de/menue/lehre/module/isabellelab/
+  venue: MTV TU Berlin
+  tags: [isabelle]
+  area: functional-programming
+
+- id: vtsa21-deciding-all-eqs
+  title: "Let's decide all equivalences at once!"
+  kind: talk
+  authors: [Benjamin Bisping]
+  url: https://miro.com/app/board/o9J_lrruKGs=/?share_link_id=315518910008
+  date: 2021-10-11
+  venue: Student Session VTSA 2021
+  venue_url: https://resources.mpi-inf.mpg.de/departments/rg1/conferences/vtsa21/
+  tags: [equivalence-spectrum, game characterization]
+  area: equivalences
+
+- id: wise21-horror
+  title: "The Software Horror Picture Show"
+  kind: course
+  date: 2021-10
+  url: https://www.mtv.tu-berlin.de/menue/lehre/module/horror/
+  venue: MTV TU Berlin
+  tags: [software-horror]
+  area: software-engineering
+- id: ba2021-mt
+  title: "Linear-Time−Branching-Time Spectroscopy as an Educational Web Browser Game"
+  authors: Mariusz Trzeciakiewicz
+  kind: supervision
+  date: 2021-11
+  url: https://concurrency-theory.org/ltbt-game
+  source: https://github.com/Marii19/the-spectroscopy-invaders
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [equivalence-spectrum, computer-game]
+  tech: ["phaser", "typescript"]
+  area: equivalences
+- id: ba2021-je
+  title: "HML Synthesis of Distinguished Processes"
+  authors: Johanna England
+  kind: supervision
+  date: 2021-12
+  source: https://github.com/johannaengland/hml-synthesis-distinguished-processes
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [synthesis, hml]
+  tech: ["python", "jupyter"]
+  area: equivalences
+- id: sose22-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2022-04
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+
+- id: ba2022-tmd
+  title: "Developing an educational tool for Linear-time–Branching-time Spectroscopy"
+  authors: Thanh Mai Duong
+  kind: supervision
+  date: 2022-07
+  url: https://spectroscopy-ui.vercel.app/
+  source: https://github.com/iammmai/spectroscopy-ui
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [equivalence-spectrum]
+  tech: ["react", "typescript"]
+  area: equivalences
+
+- id: lmcs22-deciding-all-eqs
+  title: "Deciding All Behavioral Equivalences at Once: A Game for Linear-Time–Branching-Time Spectroscopy"
+  kind: article
+  authors: [Benjamin Bisping, David N. Jansen, Uwe Nestmann]
+  url: https://doi.org/10.46298/lmcs-18(3:19)2022
+  date: 2022-08
+  venue: Logical Methods in Computer Science 18(3)
+  venue_url: https://lmcs.episciences.org/volume/view/id/657
+  tags: [equivalence-spectrum, game characterization]
+  area: equivalences
+  
+- id: wise22-horror
+  title: "The Software Horror Picture Show"
+  kind: course
+  date: 2022-10
+  url: https://www.mtv.tu-berlin.de/menue/lehre/module/horror/
+  venue: MTV TU Berlin
+  tags: [software-horror]
+  area: software-engineering
+
+
+
+
+
+

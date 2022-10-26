@@ -1,0 +1,19 @@
+<footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    {%- if site.author.homepage -%}
+    <a href="{{ site.author.homepage }}" target="_blank"><strong>{{ site.author.name }}</strong></a>
+    {%- else -%}
+    <strong>{{ site.author.name }}</strong>
+    {%- endif -%}
+  </small>
+
+  {% include social.html %}
+
+  {%- assign theme_name = "portfolYOU" -%}
+  {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
+  <!--<small id="attribution">
+    theme <a href="{{ theme_repo }}">{{ theme_name }}</a>
+  </small>-->
+
+</footer>

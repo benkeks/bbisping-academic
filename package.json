@@ -1,0 +1,12 @@
+{
+  "name": "bbisping-academic",
+  "version": "1.0.0",
+  "description": "Site with works by Benjamin Bisping",
+  "dependencies": {
+  },
+  "scripts": {
+    "ruby-deps": "gem install bundler && bundle install",
+    "dev": "bundle exec jekyll serve --livereload --verbose",
+    "build": "bundle exec jekyll build"
+  }
+}
