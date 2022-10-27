@@ -10,6 +10,9 @@
 .product-title a {
   color: $primary;
 }
+.product-pin {
+  position: absolute;
+}
 
 [data-theme="dark"] .popover {
   background-color: #17191a;

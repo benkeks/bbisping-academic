@@ -1,6 +1,6 @@
 {% assign product = include.product %}
 
-<div class="product product-reference">
+<div class="product product-reference product-pin" data-date="{{product.date}}" data-year="{{product.date | truncate: 4, ''}}" data-area="{{product.area}}">
 {% case product.kind %}
   {% when "paper" %}
   <i class="fas fa-scroll"></i>

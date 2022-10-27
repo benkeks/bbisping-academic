@@ -121,7 +121,7 @@
   supervisors: ["David S. Karcher"]
   venue: DFG Graduiertenkolleg SOAMED
   venue_url: https://gepris.dfg.de/gepris/projekt/158230677
-  area: event-structures
+  area: causality
 - id: itp16-flp
   title: Mechanical Verification of a Constructive Proof for FLP
   kind: paper
@@ -139,7 +139,7 @@
   authors: ["Benjamin Bisping", "Paul-David Brodmann", "David S. Karcher"]
   venue: D-CON 2017, Paderborn
   venue_url: https://en.cs.uni-paderborn.de/sms/d-con
-  area: event-structures
+  area: causality
 - id: karcher17-hdes
   title: "Event Structures with Higher-Order Dynamics"
   kind: contribution
@@ -147,7 +147,7 @@
   url: https://doi.org/10.14279/depositonce-6989
   date: 2017-12
   venue: TU Berlin
-  area: event-structures
+  area: causality
 - id: saar17-coupledsim
   title: "Coupled Similarity"
   kind: talk
@@ -251,7 +251,7 @@
   date: 2020-03-12
   venue: "D-CON 2020"
   venue_url: https://www.uni-due.de/theoinf/research/dcon2020.php
-  area: timed-systems
+  area: causality
 - id: sose20-modysy
   title: "Models of Dynamic Systems"
   kind: course
@@ -329,7 +329,7 @@
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
   tags: [counterfactuals]
   tech: ["typsescript", "angular"]
-  area: timed-systems
+  area: causality
 - id: wise20-modysy
   title: "Models of Dynamic Systems"
   kind: course

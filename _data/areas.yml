@@ -1,6 +1,8 @@
-- id: weak-equivalences
+
 - id: equivalences
+- id: weak-equivalences
 - id: consensus
+- id: causality
 - id: timed-systems
 - id: functional-programming
-- id: software-engineering 
+- id: software-engineering
