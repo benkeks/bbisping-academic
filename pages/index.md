@@ -53,7 +53,7 @@ const productsData = products.data();
 
 
 const bounds = d3.extent(productsData, d => d.year);
-const years = d3.range(bounds[0], bounds[1] + 1);
+const years = d3.range(bounds[0], bounds[1] + 2);
 
 const productsByYear = d3.group(productsData, d => d.year);
 
