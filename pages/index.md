@@ -18,8 +18,10 @@ weight: 1
   {% assign products_by_area = y.items | group_by: "area" %}
   {% for a in site.data.areas %}
     {% assign prods = products_by_area | find: 'name', a.id %}
+    {% assign num_in_group = 0 %}
     {% for p in prods.items %}
-      {% include elements/product.html product=p %}
+      {% assign num_in_group = num_in_group | plus: 1 %}
+      {% include elements/product.html product=p num=num_in_group%}
     {% endfor %}
   {% endfor %}
 {% endfor %}
@@ -119,15 +121,18 @@ function focusArea(areaName) {
     .duration(400)
     .attr("d", graphShapes);
   yearMarks
-    .attr("y", d => yD(new Date(d,1,1)) + 5)
-    .attr("x", d => x(currentStack[0][d - bounds[0]][0]) - 10);
+    .transition()
+    .duration(400)
+    .attr("y", d => yD(new Date(d,1,1)))
+    .attr("x", d => x(currentStack[0][Math.max(0, d - bounds[0] - 1)][0] * .5 + currentStack[0][d - bounds[0]][0] *.5) - 10);
   products
     .transition()
     .duration(400)
     .style("top", d => yD(d.date) + "px")
     .style("left", d => {
-      const space = currentStack[areaNums.get(d.area) || 0][d.year - bounds[0]]
-      return x(d3.mean(space)) + "px";
+      const space0 = currentStack[areaNums.get(d.area) || 0][d.year - bounds[0]];
+      const space1 = currentStack[areaNums.get(d.area) || 0][Math.max(0, d.year - bounds[0] - 1)];
+      return x(d3.mean(space0.concat(space1))) + "px";
     });
 }
 

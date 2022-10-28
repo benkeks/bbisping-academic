@@ -1,6 +1,11 @@
 {% assign product = include.product %}
+{% assign my_num_in_group = include.num | default: 0 %}
 
-<div class="product product-reference product-pin" data-date="{{product.date}}" data-year="{{product.date | truncate: 4, ''}}" data-area="{{product.area}}">
+<div class="product product-reference product-pin"
+    data-date="{{product.date}}"
+    data-year="{{product.date | truncate: 4, ''}}"
+    data-area="{{product.area}}"
+    data-num="{{my_num_in_group}}">
 {% case product.kind %}
   {% when "paper" %}
   <i class="fas fa-scroll"></i>
