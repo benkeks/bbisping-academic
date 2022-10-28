@@ -1,6 +1,6 @@
 
 - id: wise10-mpgi1
-  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  title: "Exercise: Algorithmic and functional solution of discrete problems"
   kind: course
   supervisors: [Peter Pepper]
   date: 2010-10
@@ -8,7 +8,7 @@
   venue_url: https://www.uebb.tu-berlin.de/
   area: functional-programming
 - id: sose11-mpgi2
-  title: "Data structures and algorithms in imperative programming (Exercise)"
+  title: "Exercise: Data structures and algorithms in imperative programming"
   kind: course
   supervisors: [Oliver Brock]
   date: 2011-04
@@ -25,7 +25,7 @@
   area: timed-systems
   tech: [java, tcsp, timed-automata, fdr, uppaal]
 - id: wise11-mpgi1
-  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  title: "Exercise: Algorithmic and functional solution of discrete problems"
   kind: course
   supervisors: [Sabine Glesner]
   date: 2011-10
@@ -33,7 +33,7 @@
   venue_url: https://www.sese.tu-berlin.de/
   area: functional-programming
 - id: sose12-mpgi2
-  title: "Data structures and algorithms in imperative programming (Exercise)"
+  title: "Exercise: Data structures and algorithms in imperative programming"
   kind: course
   supervisors: [Oliver Brock]
   date: 2012-04
@@ -51,7 +51,7 @@
   venue_url: https://www.sese.tu-berlin.de/
   area: timed-systems
 - id: wise12-mpgi1
-  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  title: "Exercise: Algorithmic and functional solution of discrete problems"
   kind: course
   supervisors: [Peter Pepper]
   date: 2012-10
@@ -59,7 +59,7 @@
   venue_url: https://www.uebb.tu-berlin.de/
   area: functional-programming
 - id: sose13-mpgi2
-  title: "Data structures and algorithms in imperative programming (Exercise)"
+  title: "Exercise: Data structures and algorithms in imperative programming"
   kind: course
   supervisors: [Marc Alexa]
   date: 2013-04
@@ -79,7 +79,7 @@
   area: functional-programming
   tech: [scala, javascript]
 - id: wise13-mpgi1
-  title: "Algorithmic and functional solution of discrete problems (Exercise)"
+  title: "Exercise: Algorithmic and functional solution of discrete problems"
   kind: course
   supervisors: [Sabine Glesner]
   date: 2013-10
@@ -177,7 +177,7 @@
 - id: tool18-coupledsim
   title: Coupled Sim Fiddle
   kind: tool
-  date: 2018-03
+  date: 2018-02
   url: https://coupledsim.bbisping.de/
   source: https://github.com/benkeks/coupled-similarity
   tech: [scala, javascript]
@@ -273,9 +273,10 @@
   area: weak-equivalences
 - id: ba2020-nl
   title: "Implementing Coupled Similarity as an automated checker for mCRL2"
+  short_title: "Coupled Similarity as an automated checker for mCRL2"
   authors: Hùòng Ngoc Lê
   kind: supervision
-  date: 2020-05
+  date: 2020-06 #or 2020-05
   url: https://github.com/mCRL2org/mCRL2/pull/1619
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
@@ -293,6 +294,7 @@
   area: equivalences
 - id: ba2020-mw
   title: "Ein Computerspiel zum Erlernen von Verhaltensäquivalenzen"
+  short_title: "Computerspiel zu Verhaltensäquivalenzen"
   authors: Michael Wrusch
   kind: supervision
   date: 2020-09
@@ -495,6 +497,7 @@
 
 - id: ba2022-tmd
   title: "Developing an educational tool for Linear-time–Branching-time Spectroscopy"
+  short_title: "An educational tool for Linear-time–Branching-time Spectroscopy"
   authors: Thanh Mai Duong
   kind: supervision
   date: 2022-07
@@ -508,6 +511,7 @@
 
 - id: lmcs22-deciding-all-eqs
   title: "Deciding All Behavioral Equivalences at Once: A Game for Linear-Time–Branching-Time Spectroscopy"
+  short_title: "Deciding All Behavioral Equivalences at Once"
   kind: article
   authors: [Benjamin Bisping, David N. Jansen, Uwe Nestmann]
   url: https://doi.org/10.46298/lmcs-18(3:19)2022

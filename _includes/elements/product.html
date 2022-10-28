@@ -1,11 +1,12 @@
 {% assign product = include.product %}
 {% assign my_num_in_group = include.num | default: 0 %}
 
-<div class="product product-reference product-pin"
+<div class="product product-reference product-pin product-{{product.kind}}"
     data-date="{{product.date}}"
     data-year="{{product.date | truncate: 4, ''}}"
     data-area="{{product.area}}"
     data-num="{{my_num_in_group}}">
+<a title="{{product.kind | capitalize}}">
 {% case product.kind %}
   {% when "paper" %}
   <i class="fas fa-scroll"></i>
@@ -28,6 +29,13 @@
   {% else %}
   <i class="fas fa-vector-square"></i>
 {% endcase %}
+</a>
+{% if product.short_title %}
+<span class="product-short-title">{{product.short_title}}</span>
+{% else %}
+<span class="product-short-title">{{product.title | truncate: 64, '...'}}</span>
+{% endif %}
+
 {% if product.url %}
 <span class="product-title"><a href="{{product.url}}">{{product.title}}</a></span>
 {% else %}
@@ -39,10 +47,10 @@
 <span class="product-venue">{{product.venue}}</span>
 {% endif %}
 {% if product.source %}
-<a href="{{product.source}}" title="Source"><i class="fab fa-github"></i></a>
+<a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
 {% endif %}
 {% if product.poster %}
-<a href="{{product.poster}}" title="Poster"><i class="far fa-image"></i></a>
+<a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
 {% endif %}
 {% if product.authors %}
 <span class="product-authors">{{ product.authors | join: ", " }}</span>

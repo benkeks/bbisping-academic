@@ -12,9 +12,26 @@
 }
 .product-pin {
   position: absolute;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: -20px;
+  margin-left: -5px;
+  max-height: 1.5em;
+  overflow: hidden;
+  font-size: 0.9rem;
 }
+.product-pin .product-title,
+.product-pin .product-venue,
+.product-pin .product-date,
+.product-pin .product-authors,
+.product-pin .product-supervisors,
+.product-pin .product-poster,
+.product-pin .product-source {
+  display:none;
+}
+.product-pin.product-paper .product-venue,
+.product-pin.product-article .product-venue {
+  display: inline;
+}
+
 
 [data-theme="dark"] .popover {
   background-color: #17191a;
