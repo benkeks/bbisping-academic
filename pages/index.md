@@ -10,9 +10,9 @@ weight: 1
 
 {% assign product_years = products | group_by_exp: "prod", "prod.date | truncate: 4, ''" %}
 
-<div id="product-canvas" style="width: 1140px; height: 2000px; position: relative;">
+<div id="product-canvas" style="width: 1140px; height: 3000px; position: relative;">
 
-<svg width="1140" height="2000" id="research-history"></svg>
+<svg width="1140" height="3000" id="research-history"></svg>
 
 {% for y in product_years %}
   {% assign products_by_area = y.items | group_by: "area" %}
@@ -32,7 +32,7 @@ weight: 1
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 
 const width=1140;
-const height=2000;
+const height=3000;
 
 const areas = {{site.data.areas | jsonify }};
 const areaNums = new Map(d3.map(d3.range(0, areas.length), (i => [areas[i].id, i])));
@@ -119,13 +119,16 @@ function focusArea(areaName) {
     .duration(400)
     .attr("d", graphShapes);
   yearMarks
-    .attr("y", d => y(d) + 5)
+    .attr("y", d => yD(new Date(d,1,1)) + 5)
     .attr("x", d => x(currentStack[0][d - bounds[0]][0]) - 10);
   products
     .transition()
     .duration(400)
     .style("top", d => yD(d.date) + "px")
-    .style("left", d => x(currentStack[areaNums.get(d.area) || 0][d.year - bounds[0]][0]) + "px");
+    .style("left", d => {
+      const space = currentStack[areaNums.get(d.area) || 0][d.year - bounds[0]]
+      return x(d3.mean(space)) + "px";
+    });
 }
 
 </script>
