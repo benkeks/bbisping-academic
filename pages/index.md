@@ -39,8 +39,6 @@ const height=4000;
 const areas = {{site.data.areas | jsonify }};
 const areaNums = new Map(d3.map(d3.range(0, areas.length), (i => [areas[i].id, i])));
 
-console.log(areaNums);
-
 const products = d3.selectAll("div.product");
 // fetch data from dom
 products.datum(function() { return {
@@ -51,16 +49,13 @@ products.datum(function() { return {
 }; });
 const productsData = products.data();
 
-
 const bounds = d3.extent(productsData, d => d.year);
 const years = d3.range(bounds[0], bounds[1] + 2);
 
 const productsByYear = d3.group(productsData, d => d.year);
 
 const areaNames = d3.map(areas, a => a.id);
-console.log(areaNames);
 
-console.log(productsByYear.get(2020));
 const areaGraph = d3.map(
   years,
   y => {
@@ -81,8 +76,6 @@ const stacking = d3.stack()
   })
   .offset(d3.stackOffsetSilhouette);
 
-console.log(bounds)
-
 const x = d3.scaleLinear([-9,9], [0, width]);
 const y = d3.scaleLinear([bounds[0] - .5, bounds[1] + .5], [height,0]);
 const yD = d3.scaleTime([new Date(bounds[0],0,1), new Date(bounds[1],11,31)], [height,0]);
@@ -97,7 +90,6 @@ const svg = d3.select("#research-history");
 
 let currentStack = stacking(areaGraph);
 
-console.log(currentStack);
 const path = svg.selectAll("path")
   .data(currentStack)
   .join("path")
