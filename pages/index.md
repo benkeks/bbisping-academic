@@ -12,7 +12,15 @@ weight: 1
 
 <div id="product-canvas" style="width: 1140px; height: 4000px; position: relative;">
 
-<svg width="1140" height="4000" id="research-history"></svg>
+<svg width="1140" height="4000" id="research-history">
+  <defs>
+  </defs>
+</svg>
+
+<div id="area-info">
+<h2 id="area-name"></h2>
+<p id="area-description"></p>
+</div>
 
 {% for y in product_years %}
   {% assign products_by_area = y.items | group_by: "area" %}
@@ -39,7 +47,7 @@ const height=4000;
 const areas = {{site.data.areas | jsonify }};
 const areaNums = new Map(d3.map(d3.range(0, areas.length), (i => [areas[i].id, i])));
 
-const products = d3.selectAll("div.product");
+const products = d3.selectAll("div.product").on("click", expandProduct);
 // fetch data from dom
 products.datum(function() { return {
   date: new Date(this.dataset.date),
@@ -67,6 +75,7 @@ const areaGraph = d3.map(
 console.log(areaGraph);
 
 let focus = '';
+let expandedProduct = null;
 
 const stacking = d3.stack()
   .keys(areaNames)
@@ -88,13 +97,36 @@ const graphShapes = d3.area()
 
 const svg = d3.select("#research-history");
 
+// add backgrounds for areas
+svg.selectAll("def > pattern")
+  .data(areas)
+  .enter()
+  .append("pattern")
+  .attr("id", d => "pattern-"+d.id)
+  .attr("x", 0)
+  .attr("y", 0)
+  .attr("width", 200)
+  .attr("height", 200)
+  .attr("patternUnits", "userSpaceOnUse")
+  .html((d,i) =>
+    `<rect x="0" y="0" width="200" height="200" fill="${d.color}"></rect>
+      <text fill="white" class="pattern-watermark" x="50" y="${40 + (i * 20) % 50}" font-size="4rem">${d.symbols}</text>
+      <text fill="white" class="pattern-watermark" x="150" y="${140 + (i * 20) % 50}" font-size="4rem">${d.symbols}</text>`
+  )
+
 let currentStack = stacking(areaGraph);
+
+console.log(currentStack)
+
+console.log(areas)
 
 const path = svg.selectAll("path")
   .data(currentStack)
   .join("path")
     .attr("d", graphShapes)
-    .attr("fill", (d,i) => d3.schemeCategory10[i])
+    .classed("area", true)
+    .attr("id", (d,i) => "area-" + areas[i].id)
+    .attr("fill", (d,i) => `url(#pattern-${areas[i].id})`)
     .on("click", (e,d) => focusArea(d.key));
 
 const yearMarks = svg.selectAll(".graph-year")
@@ -135,6 +167,16 @@ function focusArea(areaName) {
         (1.0 - pos) * ((1-yMix) * space0[0] + yMix * space1[0])
         + pos * ((1-yMix) * space0[1] + yMix * space1[1])) + "px";
     });
+  const areaInfo = areas.find(a => a.id == areaName);
+  if (areaInfo) {
+    d3.select("#area-name").text(areaInfo.name);
+  }
+}
+
+function expandProduct(event, product) {
+  d3.select(expandedProduct).classed("expanded", false);
+  d3.select(this).classed("expanded", true);
+  expandedProduct = this;
 }
 
 </script>

@@ -2,11 +2,11 @@
 {% assign my_num_in_group = include.num | default: 0 %}
 
 <div class="product product-reference product-pin product-{{product.kind}}"
-    data-date="{{product.date}}"
+    data-date="{{ product.pos_date | default: product.date }}"
     data-year="{{product.date | truncate: 4, ''}}"
     data-area="{{product.area}}"
     data-num="{{my_num_in_group}}">
-<a title="{{product.kind | capitalize}}">
+<span class="product-kind-icon" title="{{product.kind | capitalize}}">
 {% case product.kind %}
   {% when "paper" %}
   <i class="fas fa-scroll"></i>
@@ -29,35 +29,39 @@
   {% else %}
   <i class="fas fa-vector-square"></i>
 {% endcase %}
-</a>
+</span>
 {% if product.short_title %}
 <span class="product-short-title">{{product.short_title}}</span>
 {% else %}
 <span class="product-short-title">{{product.title | truncate: 64, '...'}}</span>
 {% endif %}
-
+<div class="product-venue-date-box">
+  {% if product.venue_url %}
+  <span class="product-venue"><a href="{{product.venue_url}}">{{product.venue}}</a></span>
+  {% else %}
+  <span class="product-venue">{{product.venue}}</span>
+  {% endif %}
+  <span class="product-date">({{ product.date | date: "%Y-%m" }})</span> 
+</div>
 {% if product.url %}
 <span class="product-title"><a href="{{product.url}}">{{product.title}}</a></span>
 {% else %}
 <span class="product-title">{{product.title}}</span>
 {% endif %}
-{% if product.venue_url %}
-<span class="product-venue"><a href="{{product.venue_url}}">{{product.venue}}</a></span>
-{% else %}
-<span class="product-venue">{{product.venue}}</span>
-{% endif %}
-{% if product.source %}
-<a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
-{% endif %}
-{% if product.poster %}
-<a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
-{% endif %}
-{% if product.authors %}
-<span class="product-authors">{{ product.authors | join: ", " }}</span>
-{% endif %}
-{% if product.supervisors %}
-<span class="product-supervisors">Supervisors: {{ product.supervisors | join: ", " }}</span>
-{% endif %}
-<span class="product-date">({{ product.date | date: "%Y-%m" }})</span> 
+<div class="product-info-box">
+  <span class="product-kind">{{product.kind date| capitalize}}</span>
+  {% if product.source %}
+  <a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
+  {% endif %}
+  {% if product.poster %}
+  <a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
+  {% endif %}
+  {% if product.authors %}
+  <span class="product-authors">{{ product.authors | join: ", " }}</span>
+  {% endif %}
+  {% if product.supervisors %}
+  <span class="product-supervisors">Supervisor{% if product.supervisors.size != 1 %}s{% endif %}: {{ product.supervisors | join: ", " }}</span>
+  {% endif %}
+</div>
 
 </div>

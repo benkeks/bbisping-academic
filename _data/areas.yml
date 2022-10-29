@@ -1,8 +1,29 @@
 
 - id: equivalences
+  name: "Notions of Behavioral Equivalence"
+  color: "#ff6961"
+  symbols: "~"
 - id: weak-equivalences
+  name: "Weak Behavioral Equivalences"
+  color: "#ffb480"
+  symbols: "τ"
 - id: causality
+  name: "Causality and Event Structures"
+  color: "#f8f38d"
+  symbols: "☐→"
 - id: timed-systems
-- id: consensus
+  name: "Real-Time Systems"
+  color: "#42d6a4"
+  symbols: "⏲"
+- id: distributed-algorithms
+  name: "Distributed Algorithms"
+  color: "#08cad1"
+  symbols: "p∥q"
 - id: functional-programming
+  name: "Functional Programming and Verification"
+  symbols: "𝜆"
+  color: "#59adf6"
 - id: software-engineering
+  name: "Software Engineering"
+  color: "#9d94ff"
+  symbols: "🯅"

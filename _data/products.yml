@@ -94,7 +94,7 @@
   venue: "TU Berlin"
   date: 2013-09
   tech: [isabelle]
-  area: consensus
+  area: distributed-algorithms
 - id: bachelor14-modlang-cfa
   title: "Implementing Control Flow Analysis for a Functional Language with First-Class Modules"
   kind: thesis
@@ -112,7 +112,7 @@
   venue: "AFP 2016"
   date: 2016-05
   tech: [isabelle]
-  area: consensus
+  area: distributed-algorithms
 - id: soamed16-hdes
   title: "HDES Tool – Analyzing Higher-order Dynamic-causality Event Structures"
   kind: tool
@@ -131,7 +131,7 @@
   venue_url: https://itp2016.inria.fr/program/
   date: 2016-08
   tech: [isabelle]
-  area: consensus
+  area: distributed-algorithms
 - id: dcon17-hdes
   title: "Tooltorial for HD-Event Structures"
   kind: talk
@@ -153,6 +153,7 @@
   kind: talk
   url: https://prezi.com/dmq-qu6po-to/coupled-similarity-2/
   date: 2017-12-12
+  pos_date: 2017-12-31
   venue: Dependable Systems and Software, Uni Saarland
   venue_url: https://depend.cs.uni-saarland.de/
   area: weak-equivalences
@@ -185,7 +186,7 @@
 - id: wise18-modysy
   title: "Models of Dynamic Systems"
   kind: course
-  supervisors: [Uwe Nestmann]
+  authors: [Benjamin Bisping, Uwe Nestmann]
   date: 2018-10
   url: https://pr.mtv.tu-berlin.de/
   venue: MTV TU Berlin
@@ -215,6 +216,7 @@
   kind: talk
   url: https://prezi.com/7i7amxupxqyl/coupled-similarity-tacas-2019/
   poster: TODO
+  pos_date: 2019-05
   date: 2019-04-08
   venue: "TACAS 2019, Prague"
   venue_url: https://conf.researchr.org/track/etaps-2019/tacas-2019-papers?date=Mon%208%20Apr%202019#program
@@ -276,7 +278,8 @@
   short_title: "Coupled Similarity as an automated checker for mCRL2"
   authors: Hùòng Ngoc Lê
   kind: supervision
-  date: 2020-06 #or 2020-05
+  pos_date: 2020-06
+  date: 2020-05
   url: https://github.com/mCRL2org/mCRL2/pull/1619
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
@@ -305,6 +308,7 @@
 - id: sose20-isalab
   title: "Introduction into interactive theorem proving (Isabelle-Lab)"
   kind: course
+  pos_date: 2020-08
   date: 2020-09
   authors: [Florian Kammüller, Benjamin Bisping]
   url: https://www.mtv.tu-berlin.de/menue/lehre/module/isabellelab/
@@ -362,6 +366,7 @@
   area: equivalences
 - id: ba2021-jb
   title: "Statically analysing inter-process communication in Elixir programs"
+  short_title: "Statically analysing Elixir programs"
   authors: Jonas Bulik
   kind: supervision
   date: 2021-01
@@ -385,7 +390,7 @@
   kind: talk
   authors: [Benjamin Bisping]
   url: https://doi.org/10.26226/morressier.604907f41a80aac83ca25ce7
-  poster: https://ng-submission-additional-files.s3.eu-central-1.amazonaws.com/ETAPS2021/604907f41a80aac83ca25ce7/files/LTBT-Spectroscopy-Talk-Graphics.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW6F77ISNQMTJJGK%2F20221025%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20221025T182051Z&X-Amz-Expires=14400&X-Amz-Signature=7a83c110fb0c617c44dc207af07240ebf3d6ae71fe8af598cf2a4dc65830da72&X-Amz-SignedHeaders=host
+  poster: https://doi.org/10.26226/morressier.604907f41a80aac83ca25ce7
   date: 2021-03-29
   venue: TACAS 2021, Morressier
   venue_url: https://etaps.org/2021/tacas/tacas-programme
@@ -450,6 +455,7 @@
   authors: [Benjamin Bisping]
   url: https://miro.com/app/board/o9J_lrruKGs=/?share_link_id=315518910008
   date: 2021-10-11
+  pos_date: 2021-10-01
   venue: Student Session VTSA 2021
   venue_url: https://resources.mpi-inf.mpg.de/departments/rg1/conferences/vtsa21/
   tags: [equivalence-spectrum, game characterization]
