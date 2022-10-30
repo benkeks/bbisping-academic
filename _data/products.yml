@@ -104,6 +104,14 @@
   venue: TU Berlin
   area: functional-programming
   tech: [scala, cfa]
+- id: rohloff15-
+  author: "Judith Rohloff"
+  date: 2015-10
+  title: "Analysis and implementation of hierarchical mutually recursive first class modules"
+  url: https://doi.org/10.14279/depositonce-4751
+  kind: contribution
+  area: functional-programming
+  tech: [scala, cfa]
 - id: afp16-flp
   title: A Constructive Proof for FLP
   kind: artifact
