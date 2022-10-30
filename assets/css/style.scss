@@ -128,7 +128,7 @@
   opacity: .3;
 }
 
-#area-info {
+.area-info {
   position: fixed;
   bottom: 5%;
   max-width: 600px;
@@ -136,6 +136,11 @@
   backdrop-filter: blur(4px);
   box-shadow: 5px 5px 20px white;
   z-index: 15;
+  opacity: 0;
+}
+.area-info.area-highlighted {
+  opacity: 1;
+  transition: opacity .5s;
 }
 
 

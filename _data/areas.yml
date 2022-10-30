@@ -3,6 +3,8 @@
   name: "Notions of Behavioral Equivalence"
   color: "#ff6961"
   symbols: "~"
+  description: |
+    Behavioral equivalences are at the basis of program semantics in formal methods.
 - id: weak-equivalences
   name: "Weak Behavioral Equivalences"
   color: "#ffb480"

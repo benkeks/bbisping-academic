@@ -17,10 +17,14 @@ weight: 1
   </defs>
 </svg>
 
-<div id="area-info">
-<h2 id="area-name"></h2>
-<p id="area-description"></p>
+
+{% for ar in site.data.areas | markdownify %}
+<div class="area-info" id="area-{{ar.id}}" data-id="{{ar.id}}">
+  <h2 class="area-name">{{ar.name}}</h2>
+  <p class="area-description">{{ar.description}}</p>
 </div>
+{% endfor %}
+
 
 {% for y in product_years %}
   {% assign products_by_area = y.items | group_by: "area" %}
@@ -47,7 +51,13 @@ const height=4000;
 const areas = {{site.data.areas | jsonify }};
 const areaNums = new Map(d3.map(d3.range(0, areas.length), (i => [areas[i].id, i])));
 
-const products = d3.selectAll("div.product").on("click", expandProduct);
+const areaInfos = d3.selectAll(".area-info")
+  .datum(function() { return this.dataset; });
+
+console.log(areaInfos)
+
+const products = d3.selectAll("div.product")
+  .on("click", expandProduct);
 // fetch data from dom
 products.datum(function() { return {
   date: new Date(this.dataset.date),
@@ -167,10 +177,13 @@ function focusArea(areaName) {
         (1.0 - pos) * ((1-yMix) * space0[0] + yMix * space1[0])
         + pos * ((1-yMix) * space0[1] + yMix * space1[1])) + "px";
     });
-  const areaInfo = areas.find(a => a.id == areaName);
-  if (areaInfo) {
-    d3.select("#area-name").text(areaInfo.name);
-  }
+  
+  areaInfos.classed("area-highlighted", a => a.id == areaName);
+  // const areaInfo = areas.find(a => a.id == areaName);
+  // if (areaInfo) {
+  //   d3.select("#area-name").text(areaInfo.name);
+  //   d3.select("#area-description").text(areaInfo.description);
+  // }
 }
 
 function expandProduct(event, product) {
