@@ -5,27 +5,55 @@
   symbols: "~"
   description: |
     Behavioral equivalences are at the basis of program semantics in formal methods.
+    But there's a lot of such notions.
+
+    My research is about making the spectrum of behavioral equivalences easily usable through algorithms and tools.
 - id: weak-equivalences
   name: "Weak Behavioral Equivalences"
   color: "#ffb480"
   symbols: "τ"
+  description: |
+    For models with internal behavior, one usually uses so-called *weak* notions of equivalence that abstract away “internal” aspects.
+
+    My research interest lies with the *weakest* forms of bisimilarity, namely coupled similarity and contrasimilarity.
 - id: causality
   name: "Causality and Event Structures"
   color: "#f8f38d"
   symbols: "☐→"
+  description: |
+    Often one does not only want to model what may happen in a system but also the dependencies and causalities between events.
+
+    I take particular interest in counterfactuals---a formal way of capturing what would need to change in order for statements to be true.
 - id: timed-systems
   name: "Real-Time Systems"
   color: "#42d6a4"
   symbols: "⏲"
+  description: |
+    Real-world systems and distributed algorithms rely heavily on concepts of real-time and timeouts.
+
+    At the beginning of my studies, I was concerned with the translation of Timed CSP to Timed Automata.
 - id: distributed-algorithms
   name: "Distributed Algorithms"
   color: "#08cad1"
   symbols: "p∥q"
+  description: |
+    Distributed algorithms are at the core of our networked world.
+
+    I've contributed to Isabelle/HOL formalizations of distributed consensus algorithms
+    (and of the impossibility of asynchronous consensus with faulty processes).
 - id: functional-programming
   name: "Functional Programming and Verification"
   symbols: "𝜆"
   color: "#59adf6"
+  description: |
+    A lot of elegance and robustness can be achieved by expressing programs mathematically.
+
+    I love using Scala for my programming and Isabelle/HOL for formal verifications and also teach the use of such tools.
 - id: software-engineering
   name: "Software Engineering"
   color: "#9d94ff"
   symbols: "🯅"
+  description: |
+    At the end of the day, we're all software engineers.
+
+    I give courses touching upon Scrum project management, object-oriented programming, game dev, and quality assurance.

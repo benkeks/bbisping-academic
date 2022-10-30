@@ -18,10 +18,10 @@ weight: 1
 </svg>
 
 
-{% for ar in site.data.areas | markdownify %}
+{% for ar in site.data.areas %}
 <div class="area-info" id="area-{{ar.id}}" data-id="{{ar.id}}">
-  <h2 class="area-name">{{ar.name}}</h2>
-  <p class="area-description">{{ar.description}}</p>
+  <h2 class="area-name" style="border-bottom: 3px solid {{ar.color}}">{{ar.name}}</h2>
+  <p class="area-description">{{ar.description | markdownify}}</p>
 </div>
 {% endfor %}
 
@@ -150,6 +150,8 @@ focusArea("");
 
 function focusArea(areaName) {
   focus = areaName;
+  areaInfos.classed("area-highlighted", a => a.id == areaName);
+
   currentStack = stacking(areaGraph);
   path.data(currentStack)
     .transition()
@@ -177,13 +179,6 @@ function focusArea(areaName) {
         (1.0 - pos) * ((1-yMix) * space0[0] + yMix * space1[0])
         + pos * ((1-yMix) * space0[1] + yMix * space1[1])) + "px";
     });
-  
-  areaInfos.classed("area-highlighted", a => a.id == areaName);
-  // const areaInfo = areas.find(a => a.id == areaName);
-  // if (areaInfo) {
-  //   d3.select("#area-name").text(areaInfo.name);
-  //   d3.select("#area-description").text(areaInfo.description);
-  // }
 }
 
 function expandProduct(event, product) {
