@@ -19,7 +19,7 @@
 - id: causality
   name: "Causality and Event Structures"
   color: "#f8f38d"
-  symbols: "☐→"
+  symbols: "→"
   description: |
     Often one does not only want to model what may happen in a system but also the dependencies and causalities between events.
 

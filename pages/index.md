@@ -17,6 +17,9 @@ weight: 1
   </defs>
 </svg>
 
+{% for y in product_years %}
+<div class="year-mark" data-year="{{y.name}}">{{y.name}}</div>
+{% endfor %}
 
 {% for ar in site.data.areas %}
 <div class="area-info" id="area-{{ar.id}}" data-id="{{ar.id}}">
@@ -53,8 +56,6 @@ const areaNums = new Map(d3.map(d3.range(0, areas.length), (i => [areas[i].id, i
 
 const areaInfos = d3.selectAll(".area-info")
   .datum(function() { return this.dataset; });
-
-console.log(areaInfos)
 
 const products = d3.selectAll("div.product")
   .on("click", expandProduct);
@@ -139,12 +140,8 @@ const path = svg.selectAll("path")
     .attr("fill", (d,i) => `url(#pattern-${areas[i].id})`)
     .on("click", (e,d) => focusArea(d.key));
 
-const yearMarks = svg.selectAll(".graph-year")
-  .data(years)
-  .enter()
-    .append("text")
-    .attr("text-anchor", "end")
-    .text(d => d + "__")
+const yearMarks = d3.selectAll(".year-mark")
+  .datum(function() { return {year: parseInt(this.dataset.year)}; });
 
 focusArea("");
 
@@ -160,8 +157,8 @@ function focusArea(areaName) {
   yearMarks
     .transition()
     .duration(400)
-    .attr("y", d => yD(new Date(d,0,1)))
-    .attr("x", d => x(currentStack[0][Math.max(0, d - bounds[0] - 1)][0] * .5 + currentStack[0][d - bounds[0]][0] *.5));
+    .style("top", d => yD(new Date(d.year,0,1)) + "px")
+    .style("left", d => x(currentStack[0][Math.max(0, d.year - bounds[0] - 1)][0] * .5 + currentStack[0][d.year - bounds[0]][0] *.5) + "px");
   products
     .transition()
     .duration(400)
@@ -179,12 +176,14 @@ function focusArea(areaName) {
         (1.0 - pos) * ((1-yMix) * space0[0] + yMix * space1[0])
         + pos * ((1-yMix) * space0[1] + yMix * space1[1])) + "px";
     });
+  if (areaName) expandProduct(null, null);
 }
 
 function expandProduct(event, product) {
   d3.select(expandedProduct).classed("expanded", false);
   d3.select(this).classed("expanded", true);
   expandedProduct = this;
+  if (product) focusArea("");
 }
 
 </script>

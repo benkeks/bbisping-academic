@@ -2,7 +2,17 @@
 ---
 @import "portfolYOU";
 
-
+.year-mark {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  opacity: .8;
+  border-bottom: 4px dashed white;
+  min-width: 30%;
+  margin-top: -2.9rem;
+  padding-left: 2rem;
+}
 
 .product a {
   color: $secondary;
@@ -137,10 +147,13 @@
   box-shadow: 5px 5px 20px white;
   z-index: 15;
   opacity: 0;
+  width: 0;
 }
 .area-info.area-highlighted {
   opacity: 1;
-  transition: opacity .5s;
+  width: auto;
+  transition: width 2s, opacity .5s;
+  display: block;
 }
 
 
