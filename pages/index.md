@@ -5,6 +5,9 @@ permalink: /
 weight: 1
 ---
 
+{% assign width = 1140 %}
+{% assign height = 4000 %}
+{% assign cap_at_year = 2016 %}
 
 {% assign products = site.data.products | sort: "date" | reverse %}
 
@@ -12,7 +15,7 @@ weight: 1
 
 <div id="product-canvas" class="row justify-content-center" style="width: 1140px; position: relative;">
 
-<svg width="1140" height="4000" id="research-history">
+<svg width="{{width}}" height="0" id="research-history">
   <defs>
   </defs>
 </svg>
@@ -41,6 +44,8 @@ weight: 1
   {% endfor %}
 {% endfor %}
 
+<button type="button" id="show-times" class="btn btn-light">Show undergrad times</button>
+
 </div>
 
 
@@ -48,8 +53,9 @@ weight: 1
 
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 
-const width=1140;
-const height=4000;
+const width={{width}};
+const height={{height}};
+let capAtYear={{cap_at_year}};
 
 const areas = {{site.data.areas | jsonify }};
 const areaNums = new Map(d3.map(d3.range(0, areas.length), (i => [areas[i].id, i])));
@@ -127,10 +133,6 @@ svg.selectAll("def > pattern")
 
 let currentStack = stacking(areaGraph);
 
-console.log(currentStack)
-
-console.log(areas)
-
 const path = svg.selectAll("path")
   .data(currentStack)
   .join("path")
@@ -143,6 +145,18 @@ const path = svg.selectAll("path")
 const yearMarks = d3.selectAll(".year-mark")
   .datum(function() { return {year: parseInt(this.dataset.year)}; });
 
+d3.select("#show-times")
+  .on("click", (b) => {
+    if (capAtYear === 0) {
+      setCap({{cap_at_year}});
+    } else {
+      setCap(0);
+    }
+    focusArea("");
+  });
+
+
+setCap({{cap_at_year}});
 focusArea("");
 
 function focusArea(areaName) {
@@ -155,11 +169,13 @@ function focusArea(areaName) {
     .duration(400)
     .attr("d", graphShapes);
   yearMarks
+    .classed("capped", d => d.year < capAtYear)
     .transition()
     .duration(400)
     .style("top", d => yD(new Date(d.year,0,1)) + "px")
     .style("left", d => x(currentStack[0][Math.max(0, d.year - bounds[0] - 1)][0] * .5 + currentStack[0][d.year - bounds[0]][0] *.5) + "px");
   products
+    .classed("capped", d => d.year < capAtYear)
     .transition()
     .duration(400)
     .style("top", d => yD(d.date) + "px")
@@ -184,6 +200,11 @@ function expandProduct(event, product) {
   d3.select(this).classed("expanded", true);
   expandedProduct = this;
   if (product) focusArea("");
+}
+
+function setCap(cap) {
+  capAtYear = cap;
+  svg.attr("height", Math.min({{height}}, yD(new Date(capAtYear,0,1))+30));
 }
 
 </script>
