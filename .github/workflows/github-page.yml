@@ -17,9 +17,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: actions/setup-node@v3
-          with:
-            node-version: 16
-            cache: 'npm'
+        with:
+          node-version: 16
+          cache: 'npm'
       - run: npm install
       - run: npm run ruby-deps
       - run: npm run build
