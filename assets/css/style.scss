@@ -2,6 +2,13 @@
 ---
 @import "portfolYOU";
 
+a {
+  text-decoration: none;
+}
+a:hover, a:focus{
+  text-decoration: underline;
+}
+
 .year-mark {
   position: absolute;
   font-size: 2rem;
@@ -9,7 +16,7 @@
   color: white;
   opacity: .8;
   border-bottom: 4px dashed white;
-  min-width: 30%;
+  max-width: 30%;
   margin-top: -2.9rem;
   padding-left: 2rem;
   pointer-events: none;
@@ -128,6 +135,9 @@
 .product-pin.capped, .year-mark.capped {
   display: none;
 } 
+#product-canvas>svg {
+  padding: 0px;
+}
 #product-canvas path.area {
   opacity: .5;
   transition: opacity .5s;

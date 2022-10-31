@@ -13,3 +13,5 @@ Gemfile.lock
 
 # Generated thumbnails
 thumbs/
+
+node_modules

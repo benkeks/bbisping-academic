@@ -51,8 +51,6 @@ weight: 1
 
 <script type="module">
 
-import * as d3 from "https://cdn.skypack.dev/d3@7";
-
 const width={{width}};
 const height={{height}};
 let capAtYear={{cap_at_year}};
@@ -88,8 +86,6 @@ const areaGraph = d3.map(
     row['year'] = y
     return row;
   });
-
-console.log(areaGraph);
 
 let focus = '';
 let expandedProduct = null;
