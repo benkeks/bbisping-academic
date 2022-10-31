@@ -1,10 +1,9 @@
 ### Site Settings ###
-title               : Benjamin Bisping's Research
-description         : ""
+title               : Benjamin Bisping
+description         : "Research in Semantics of Distributed Systems"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 url                 : "https://bbisping.de"
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 ### Plugins ###
 plugins:
@@ -20,49 +19,25 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Benjamin Bisping
+  image             : "assets/img/bb.jpg"
   email             : benjamin.bisping@tu-berlin.de
+  orcid             : 0000-0002-0637-0171
   github            : benkeks
   twitter           : benkeks
   homepage          : https://www.mtv.tu-berlin.de/menue/organisation/team/bisping_wm/
+  office            : menue/organisation/team/bisping_wm/
 
 ### Posts ###
 permalink: /blog/:title
 
 ### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /:name
-
-### Disqus ###
-# disqus:
-#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
-
-### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
-
-
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
-
+# collections:
+#   projects:
+#     output: true
+#     permalink: /:name
 
 ### Defaults for collections ###
 defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
   - scope:
       path: ""
       type: "posts"

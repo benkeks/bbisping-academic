@@ -105,7 +105,7 @@
   area: functional-programming
   tech: [scala, cfa]
 - id: rohloff15-
-  author: "Judith Rohloff"
+  authors: "Judith Rohloff"
   date: 2015-10
   title: "Analysis and implementation of hierarchical mutually recursive first class modules"
   url: https://doi.org/10.14279/depositonce-4751

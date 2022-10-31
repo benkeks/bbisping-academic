@@ -149,56 +149,14 @@
   z-index: 15;
   opacity: 0;
   width: 0;
+  height: 0;
 }
 .area-info.area-highlighted {
   opacity: 1;
   width: auto;
+  height: auto;
   transition: width 2s, opacity .5s;
   display: block;
-}
-
-
-[data-theme="dark"] .popover {
-  background-color: #17191a;
-}
-[data-theme="dark"] .popover-header {
-  background-color: #27292a;
-}
-
-[data-theme="dark"] .popover .popover-body {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-@media screen and (max-width: 700px){
-  .popover{
-     display: none !important;
-  }
-}
-
-.jumbotron-background {
-  background-position: center;
-  border-radius: 0.3rem;
-}
-
-.jumbotron {
-  backdrop-filter: blur(8px);
-  background-color: rgba(240,230,230,.7)
-}
-
-[data-theme="dark"] .jumbotron {
-  background-color: rgba(80,70,70,.7)
-}
-
-.markdown-body .img-fluid.modysy-screenshot {
-  margin-top: 0.1rem;
-}
-
-.navbar-brand {
-  white-space: normal !important;
-  margin-bottom: -5px !important;
-}
-.navbar-toggler {
-  padding: 0px;
 }
 
 h1, h2, h3, h4, p {
@@ -206,15 +164,4 @@ h1, h2, h3, h4, p {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-}
-
-main.container.mt-5 {
-  padding: 3rem 0 0 !important;
-  margin-top: 0 !important;
-}
-
-main.container.mt-5, .popover-header {
-  background-image: url(/assets/img/strip2_alpha2.png);
-  background-size: contain;
-  background-repeat: repeat-x;
 }

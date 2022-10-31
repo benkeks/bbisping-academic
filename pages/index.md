@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: start
 title: Benjamin Bisping's Research
 permalink: /
 weight: 1
@@ -10,7 +10,7 @@ weight: 1
 
 {% assign product_years = products | group_by_exp: "prod", "prod.date | truncate: 4, ''" %}
 
-<div id="product-canvas" style="width: 1140px; height: 4000px; position: relative;">
+<div id="product-canvas" class="row justify-content-center" style="width: 1140px; position: relative;">
 
 <svg width="1140" height="4000" id="research-history">
   <defs>
@@ -97,8 +97,8 @@ const stacking = d3.stack()
   .offset(d3.stackOffsetSilhouette);
 
 const x = d3.scaleLinear([-9,9], [0, width]);
-const y = d3.scaleLinear([bounds[0] - .5, bounds[1] + .5], [height,0]);
-const yD = d3.scaleTime([new Date(bounds[0],0,1), new Date(bounds[1],11,31)], [height,0]);
+const y = d3.scaleLinear([bounds[0], bounds[1] + .5], [height,0]);
+const yD = d3.scaleTime([new Date(bounds[0],5,1), new Date(bounds[1],11,31)], [height,0]);
 
 const graphShapes = d3.area()
   .x0(d => x(d[0]))
