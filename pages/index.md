@@ -13,6 +13,13 @@ weight: 1
 
 {% assign product_years = products | group_by_exp: "prod", "prod.date | truncate: 4, ''" %}
 
+{% for ar in site.data.areas %}
+<div class="area-info" id="area-{{ar.id}}" data-id="{{ar.id}}">
+  <h2 class="area-name" style="border-bottom: 3px solid {{ar.color}}">{{ar.name}}</h2>
+  <p class="area-description">{{ar.description | markdownify}}</p>
+</div>
+{% endfor %}
+
 <div id="product-canvas" class="row justify-content-center" style="width: 1140px; position: relative;">
 
 <svg width="{{width}}" height="0" id="research-history">
@@ -22,13 +29,6 @@ weight: 1
 
 {% for y in product_years %}
 <div class="year-mark" data-year="{{y.name}}">{{y.name}}</div>
-{% endfor %}
-
-{% for ar in site.data.areas %}
-<div class="area-info" id="area-{{ar.id}}" data-id="{{ar.id}}">
-  <h2 class="area-name" style="border-bottom: 3px solid {{ar.color}}">{{ar.name}}</h2>
-  <p class="area-description">{{ar.description | markdownify}}</p>
-</div>
 {% endfor %}
 
 
