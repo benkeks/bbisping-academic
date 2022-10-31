@@ -20,7 +20,7 @@ weight: 1
 </div>
 {% endfor %}
 
-<div id="product-canvas" class="row justify-content-center" style="width: 1140px; position: relative;">
+<div id="product-canvas" class="row justify-content-center" style="width: {{width}}px; position: relative;">
 
 <svg width="{{width}}" height="0" id="research-history">
   <defs>
@@ -102,7 +102,7 @@ const stacking = d3.stack()
   })
   .offset(d3.stackOffsetSilhouette);
 
-const x = d3.scaleLinear([-9,9], [0, width]);
+const x = d3.scaleLinear([-8,8], [0, width]);
 const y = d3.scaleLinear([bounds[0], bounds[1] + .5], [height,0]);
 const yD = d3.scaleTime([new Date(bounds[0],5,1), new Date(bounds[1],11,31)], [height,0]);
 
