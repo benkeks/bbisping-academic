@@ -87,8 +87,6 @@ const areaGraph = d3.map(
     return row;
   });
 
-console.log(areaGraph);
-
 let focus = '';
 let expandedProduct = null;
 

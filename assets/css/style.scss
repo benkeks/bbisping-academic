@@ -37,6 +37,9 @@ main.container {
   display: flex;
   flex-wrap: wrap;
 }
+#product-canvas {
+  overflow: hidden;
+}
 
 .year-mark {
   position: absolute;
