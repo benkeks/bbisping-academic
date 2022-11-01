@@ -25,8 +25,17 @@
 a {
   text-decoration: none;
 }
-a:hover, a:focus{
+a:hover, a:focus {
   text-decoration: underline;
+}
+
+main.container {
+  padding: 0;
+}
+
+#header, #product-canvas {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .year-mark {
@@ -36,10 +45,14 @@ a:hover, a:focus{
   color: white;
   opacity: .8;
   border-bottom: 4px dashed white;
-  max-width: 30%;
+  width: 25%;
   margin-top: -2.9rem;
   padding-left: 2rem;
   pointer-events: none;
+}
+[data-theme="dark"] .year-mark {
+  color: $dark;
+  border-color: $dark;
 }
 
 .product a {
@@ -58,6 +71,14 @@ a:hover, a:focus{
   font-size: 0.9rem;
   padding-left: 25px;
 }
+.product-pin.tagged-highlight {
+  box-shadow: 0px 0px 10px white;
+  background: rgba(255,255,255,.4);
+}
+[data-theme="dark"] .product-pin.tagged-highlight {
+  color: black;
+}
+
 .product-pin .product-title {
   display: none;
 }
@@ -77,6 +98,9 @@ a:hover, a:focus{
 .product-pin.expanded:hover {
   font-weight: unset;
   cursor: unset;
+}
+[data-theme="dark"] .product-pin.expanded {
+  color: $dark;
 }
 .product-pin .product-venue,
 .product-pin .product-date,
@@ -119,6 +143,7 @@ a:hover, a:focus{
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(2px);
   box-shadow: 5px 5px 20px white;
+  width: auto;
 }
 .product-pin.expanded {
   max-height: fit-content;
@@ -137,13 +162,14 @@ a:hover, a:focus{
 }
 .product-pin .product-venue-date-box {
   position: absolute;
-  display: unset;
+  display: table;
   top: -1.5rem;
   z-index: 5;
 }
 .product-pin .product-info-box {
   display: table;
   margin-top: 3px;
+  width: 0px;
   z-index: 5;
 }
 .product-pin.expanded .product-kind {
@@ -171,6 +197,7 @@ a:hover, a:focus{
 
 .area-info {
   position: fixed;
+  padding: .5rem;
   bottom: 2vh;
   max-width: 600px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -187,6 +214,10 @@ a:hover, a:focus{
   height: auto;
   transition: width 2s, opacity .5s;
   display: block;
+}
+[data-theme="dark"] .area-info {
+  background-color: rgba(10, 10, 10, 0.8);
+  box-shadow: 5px 5px 20px $dark;
 }
 
 #show-times {

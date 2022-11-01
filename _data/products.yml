@@ -97,7 +97,7 @@
   area: distributed-algorithms
 - id: bachelor14-modlang-cfa
   title: "Implementing Control Flow Analysis for a Functional Language with First-Class Modules"
-  kind: thesis
+  kind: bachelor thesis
   description: "For my bachelor's thesis, I devised a static analysis of the call graph for ModLang, a language with first-class modules."
   supervisors: [Peter Pepper, Stefan Jähnichen]
   date: 2014-04
@@ -135,6 +135,7 @@
   kind: paper
   authors: ["Benjamin Bisping", "Paul-David Brodmann", "Tim Jungnickel", "Christina Rickmann", "Henning Seidler", "Anke Stüber", "Arno Wilhelm-Weidner", "Kirstin Peters", "Uwe Nestmann"] 
   url: https://doi.org/10.1007/978-3-319-43144-4_7
+  tags: [isabelle, consensus, highlight]
   venue: "ITP 2016, LNCS 9807"
   venue_url: https://itp2016.inria.fr/program/
   date: 2016-08
@@ -175,7 +176,7 @@
   area: weak-equivalences
 - id: master18-coupledsim
   title: Computing Coupled Similarity
-  kind: thesis
+  kind: master thesis
   url: https://coupledsim.bbisping.de/bisping_computingCoupledSimilarity_thesis.pdf
   venue: TU Berlin
   supervisors: [Uwe Nestmann, Holger Hermanns]
@@ -190,6 +191,7 @@
   url: https://coupledsim.bbisping.de/
   source: https://github.com/benkeks/coupled-similarity
   tech: [scala, javascript]
+  tags: [highlight]
   area: weak-equivalences
 - id: wise18-modysy
   title: "Models of Dynamic Systems"
@@ -208,7 +210,7 @@
   venue: "TACAS 2019, LNCS 11427"
   date: 2019-04
   tech: [reachability games, coinduction]
-  tags: [coupled similarity, game characterization]
+  tags: [coupled similarity, game characterization, highlight]
   area: weak-equivalences
 - id: tacas19-coupledsim-artifact
   title: Isabelle/HOL proof and Apache Flink program for TACAS 2019 paper
@@ -300,7 +302,7 @@
   url: https://concurrency-theory.org/ltbt-spectroscope/
   source: https://github.com/benkeks/equivalence-fiddle/
   date: 2020-08
-  tags: [equivalence-spectrum, game characterization]
+  tags: [equivalence-spectrum, game characterization, highlight]
   tech: [scala, javascript]
   area: equivalences
 - id: ba2020-mw
@@ -331,7 +333,7 @@
   date: 2020-10
   venue: Acta Informatica 57(3)
   venue_url: https://link.springer.com/journal/236/volumes-and-issues/57-3
-  tags: [coupled similarity, game characterization, axiomatization]
+  tags: [coupled similarity, game characterization, axiomatization, highlight]
   area: weak-equivalences
 - id: ba2020-jr
   title: "Visualising and Model Checking Counterfactuals"
@@ -365,6 +367,7 @@
   area: equivalences
 - id: tacas21-spectroscopy-artifact
   title: "Linear-time–Branching-time Spectroscope: TACAS 2021 Edition"
+  short_title: "Linear-time–Branching-time Spectroscope TACAS'21 Edition"
   kind: artifact
   url: https://doi.org/10.5281/zenodo.4475878
   date: 2021-01
@@ -391,7 +394,7 @@
   url: https://doi.org/10.1007/978-3-030-72016-2_1
   date: 2021-03
   venue: TACAS 2021, LNCS 12651
-  tags: [equivalence-spectrum, game characterization]
+  tags: [equivalence-spectrum, game characterization, highlight]
   area: equivalences
 - id: tacas21-spectroscopy-talk
   title: "Video: A Game for Linear-time–Branching-time Spectroscopy"
@@ -436,6 +439,16 @@
   tags: [reactive bisimilarity]
   tech: ["isabelle"]
   area: timed-systems
+- id: web2021-concurrencytheoryorg
+  kind: website
+  title: "concurrency-theory.org"
+  date: 2021-07
+  authors: [Benjamin Bisping, "Pedro D’Argenio"]
+  url: https://concurrency-theory.org
+  source: https://github.com/benkeks/concurrency-theory.org
+  tech: [jekyll]
+  description: "I reimplemented the IFIP-WG 1.8 website <concurrency-theory.org> (hosted on MTV servers) using Jekyll."
+  area: software-engineering
 - id: expresssos21-contrasim-game
   title: "A Game Characterization for Contrasimilarity"
   kind: paper
@@ -444,7 +457,7 @@
   date: 2021-08
   venue: EXPRESS/SOS 2021, EPTCS 339
   venue_url: http://icetcs.ru.is/express-sos2021/
-  tags: [contrasimilarity, game characterization]
+  tags: [contrasimilarity, game characterization, highlight]
   area: weak-equivalences
 
 - id: sose19-isalab
@@ -532,7 +545,7 @@
   date: 2022-08
   venue: Logical Methods in Computer Science 18(3)
   venue_url: https://lmcs.episciences.org/volume/view/id/657
-  tags: [equivalence-spectrum, game characterization]
+  tags: [equivalence-spectrum, game-characterization, highlight]
   area: equivalences
   
 - id: wise22-horror

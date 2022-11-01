@@ -20,7 +20,7 @@ weight: 1
 </div>
 {% endfor %}
 
-<div id="product-canvas" class="row justify-content-center" style="width: {{width}}px; position: relative;">
+<div id="product-canvas" class="justify-content-center" style="width: {{width}}px; position: relative;">
 
 <svg width="{{width}}" height="0" id="research-history">
   <defs>
@@ -45,7 +45,6 @@ weight: 1
 {% endfor %}
 
 <button type="button" id="show-times" class="btn btn-light">Show undergrad times</button>
-
 </div>
 
 
@@ -83,9 +82,12 @@ const areaGraph = d3.map(
   years,
   y => {
     const row = d3.rollup(productsByYear.get(y) || [], v => v.length, p => p.area);
+    row.forEach((v, k) => row.set(k, .2 + v ** .8));
     row['year'] = y
     return row;
   });
+
+console.log(areaGraph);
 
 let focus = '';
 let expandedProduct = null;
@@ -96,9 +98,9 @@ const stacking = d3.stack()
     const val = d.get(k) || 0.2;
     return val * (k == focus ? 1.5 : 1.0);
   })
-  .offset(d3.stackOffsetSilhouette);
+  .offset(d3.stackOffsetWiggle);
 
-const x = d3.scaleLinear([-8,8], [0, width]);
+const x = d3.scaleLinear([-8.5,8.5], [0, width]);
 const y = d3.scaleLinear([bounds[0], bounds[1] + .5], [height,0]);
 const yD = d3.scaleTime([new Date(bounds[0],5,1), new Date(bounds[1],11,31)], [height,0]);
 
