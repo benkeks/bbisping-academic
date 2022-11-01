@@ -10,7 +10,7 @@
   },
   "scripts": {
     "ruby-deps": "gem install bundler && bundle install",
-    "dev": "bundle exec jekyll serve --trace --livereload --verbose",
+    "dev": "bundle exec jekyll serve --trace --livereload",
     "build": "bundle exec jekyll build"
   }
 }
