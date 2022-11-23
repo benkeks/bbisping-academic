@@ -557,6 +557,18 @@
   tags: [software-horror]
   area: software-engineering
 
+- id: ba2022-ra
+  title: "Simulation fehlertoleranter Konsensalgorithmen in Hash.ai"
+  authors: Roy Adler
+  kind: supervision
+  date: 2022-11
+  url: https://core.hash.ai/@royadler/consensus-algorithms/53.0.0
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stefan Schmid]
+  tags: [consensus]
+  tech: ["hash", "js"]
+  area: distributed-algorithms
+
 
 
 
