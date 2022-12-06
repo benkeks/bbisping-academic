@@ -552,11 +552,25 @@
   title: "The Software Horror Picture Show"
   kind: course
   date: 2022-10
+  pos_date: 2022-09
   url: https://www.mtv.tu-berlin.de/menue/lehre/module/horror/
   venue: MTV TU Berlin
   tags: [software-horror]
   area: software-engineering
 
+- id: ba2022-za
+  title: "Automatisierte Reduktion von reaktiver zu starker Bisimilarität"
+  authors: Zead Alshukariri
+  kind: supervision
+  date: 2022-11
+  pos_date: 2022-10
+  url: https://github.com/Mieneas/Automatisierte-Reduktion-von-reaktiver-zu-starker-Bisimilaritaet/blob/aab19c680ebf2790bb9f08874904d7ff563c930c/thesis/document/thesis.pdf
+  source: https://github.com/Mieneas/Automatisierte-Reduktion-von-reaktiver-zu-starker-Bisimilaritaet
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [reactive bisimilarity]
+  tech: ["java", "mcrl2"]
+  area: timed-systems
 - id: ba2022-ra
   title: "Simulation fehlertoleranter Konsensalgorithmen in Hash.ai"
   authors: Roy Adler
@@ -568,9 +582,18 @@
   tags: [consensus]
   tech: ["hash", "js"]
   area: distributed-algorithms
-
-
-
+- id: ba2022-es
+  title: "A Video Game about Reactive Bisimilarity"
+  authors: Eloi Sandt
+  kind: supervision
+  date: 2022-12
+  url: https://eloinoel.github.io/ReactiveBisimilarityGame/
+  source: https://github.com/eloinoel/ReactiveBisimilarityGame
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [reactive bisimilarity]
+  tech: ["typescript", "phaser"]
+  area: timed-systems
 
 
 
