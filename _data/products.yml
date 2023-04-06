@@ -42,7 +42,7 @@
   area: software-engineering
 - id: goethel12-tcsp2ta
   title: "Mechanical Verification of Parameterized Real-Time Systems"
-  kind: contribution
+  kind: contribution to work by
   description: "Chapter 6 reports on my translation tools from Timed CSP to Uppaal Timed Automata and to FDR-compatible TockCSP"
   authors: [Thomas Göthel]
   url: https://depositonce.tu-berlin.de/bitstream/11303/3545/1/Dokument_15.pdf
@@ -88,7 +88,7 @@
   area: functional-programming
 - id: kuefner13-distributed-algorithms
   title: Modeling and verification of distributed algorithms in theorem proving environments
-  kind: contribution
+  kind: contribution to work by
   authors: ["Philipp Küfner"]
   url: https://doi.org/10.14279/depositonce-3974
   venue: "TU Berlin"
@@ -109,7 +109,7 @@
   date: 2015-10
   title: "Analysis and implementation of hierarchical mutually recursive first class modules"
   url: https://doi.org/10.14279/depositonce-4751
-  kind: contribution
+  kind: contribution to work by
   area: functional-programming
   tech: [scala, cfa]
 - id: afp16-flp
@@ -151,7 +151,7 @@
   area: causality
 - id: karcher17-hdes
   title: "Event Structures with Higher-Order Dynamics"
-  kind: contribution
+  kind: contribution to work by
   authors: [David S. Karcher]
   url: https://doi.org/10.14279/depositonce-6989
   date: 2017-12
@@ -275,7 +275,7 @@
 - id: ba2020-dp
   title: "Process equivalences as a video game"
   authors: Dominik Peacock
-  kind: supervision
+  kind: advising
   date: 2020-05
   url: https://www.concurrency-theory.org/rvg-game/
   venue: MTV TU Berlin
@@ -287,7 +287,7 @@
   title: "Implementing Coupled Similarity as an automated checker for mCRL2"
   short_title: "Coupled Similarity as an automated checker for mCRL2"
   authors: Hùòng Ngoc Lê
-  kind: supervision
+  kind: advising
   pos_date: 2020-06
   date: 2020-05
   url: https://github.com/mCRL2org/mCRL2/pull/1619
@@ -309,7 +309,7 @@
   title: "Ein Computerspiel zum Erlernen von Verhaltensäquivalenzen"
   short_title: "Computerspiel zu Verhaltensäquivalenzen"
   authors: Michael Wrusch
-  kind: supervision
+  kind: advising
   date: 2020-09
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Manfred Hauswirth]
@@ -338,7 +338,7 @@
 - id: ba2020-jr
   title: "Visualising and Model Checking Counterfactuals"
   authors: Jannik Moritz Reichert
-  kind: supervision
+  kind: advising
   date: 2020-09
   url: https://counterfactuals.org/
   venue: MTV TU Berlin
@@ -357,7 +357,7 @@
 - id: ba2020-tw
   title: "Charting the jungle of process calculi encodings"
   authors: Tobias Wittig
-  kind: supervision
+  kind: advising
   date: 2020-12
   url: https://concurrency-theory.org/process-jungle/
   venue: MTV TU Berlin
@@ -379,7 +379,7 @@
   title: "Statically analysing inter-process communication in Elixir programs"
   short_title: "Statically analysing Elixir programs"
   authors: Jonas Bulik
-  kind: supervision
+  kind: advising
   date: 2021-01
   url: https://gitlab.com/MrGreenTea/stille-post
   venue: MTV TU Berlin
@@ -418,7 +418,7 @@
 - id: ba2021-lm
   title: "Kontrasimulation als Spiel"
   authors: Luisa Montanari
-  kind: supervision
+  kind: advising
   date: 2021-05
   url: https://arxiv.org/abs/2108.10492
   source: https://github.com/luisamontanari/ContrasimGame
@@ -430,7 +430,7 @@
 - id: ba2021-mp
   title: "Reducing Strong Reactive Bisimilarity to Strong Bisimilarity"
   authors: Maximilian Pohlmann
-  kind: supervision
+  kind: advising
   date: 2021-06
   url: https://maxpohlmann.github.io/Reducing-Reactive-to-Strong-Bisimilarity/thesis.pdf
   source: https://github.com/maxpohlmann/Reducing-Reactive-to-Strong-Bisimilarity
@@ -493,7 +493,7 @@
 - id: ba2021-mt
   title: "Linear-Time−Branching-Time Spectroscopy as an Educational Web Browser Game"
   authors: Mariusz Trzeciakiewicz
-  kind: supervision
+  kind: advising
   date: 2021-11
   url: https://concurrency-theory.org/ltbt-game
   source: https://github.com/Marii19/the-spectroscopy-invaders
@@ -505,7 +505,7 @@
 - id: ba2021-je
   title: "HML Synthesis of Distinguished Processes"
   authors: Johanna England
-  kind: supervision
+  kind: advising
   date: 2021-12
   source: https://github.com/johannaengland/hml-synthesis-distinguished-processes
   venue: MTV TU Berlin
@@ -526,7 +526,7 @@
   title: "Developing an educational tool for Linear-time–Branching-time Spectroscopy"
   short_title: "An educational tool for Linear-time–Branching-time Spectroscopy"
   authors: Thanh Mai Duong
-  kind: supervision
+  kind: advising
   date: 2022-07
   url: https://spectroscopy-ui.vercel.app/
   source: https://github.com/iammmai/spectroscopy-ui
@@ -561,7 +561,7 @@
 - id: ba2022-za
   title: "Automatisierte Reduktion von reaktiver zu starker Bisimilarität"
   authors: Zead Alshukariri
-  kind: supervision
+  kind: advising
   date: 2022-11
   pos_date: 2022-10
   url: https://github.com/Mieneas/Automatisierte-Reduktion-von-reaktiver-zu-starker-Bisimilaritaet/blob/aab19c680ebf2790bb9f08874904d7ff563c930c/thesis/document/thesis.pdf
@@ -574,7 +574,7 @@
 - id: ba2022-ra
   title: "Simulation fehlertoleranter Konsensalgorithmen in Hash.ai"
   authors: Roy Adler
-  kind: supervision
+  kind: advising
   date: 2022-11
   url: https://core.hash.ai/@royadler/consensus-algorithms/53.0.0
   venue: MTV TU Berlin
@@ -585,7 +585,7 @@
 - id: ba2022-es
   title: "A Video Game about Reactive Bisimilarity"
   authors: Eloi Sandt
-  kind: supervision
+  kind: advising
   date: 2022-12
   url: https://eloinoel.github.io/ReactiveBisimilarityGame/
   source: https://github.com/eloinoel/ReactiveBisimilarityGame
@@ -598,7 +598,7 @@
   title: "An educational computer game about counterfactual truth conditions"
   short_title: "Computer game about counterfactual truth conditions"
   authors: "Bruno Lönne"
-  kind: supervision
+  kind: advising
   date: 2023-01
   url: https://brunololos.github.io/counterfactuals-demo/
   source: https://github.com/Brunololos/counterfactuals-demo

@@ -1,7 +1,7 @@
 {% assign product = include.product %}
 {% assign my_num_in_group = include.num | default: 0 %}
 
-<div class="product product-reference product-pin product-{{product.kind}} {% for t in product.tags %} tagged-{{t}}{% endfor %}"
+<div class="product product-reference product-pin product-{{product.kind | slugify}} {% for t in product.tags %} tagged-{{t}}{% endfor %}"
     data-date="{{ product.pos_date | default: product.date }}"
     data-year="{{product.date | truncate: 4, ''}}"
     data-area="{{product.area}}"
@@ -20,9 +20,9 @@
   <i class="fas fa-volume-up"></i>
   {% when "course" %}
   <i class="fas fa-chalkboard-teacher"></i>
-  {% when "contribution" %}
+  {% when "contribution", "contribution to work by" %}
   <i class="fas fa-sign-in-alt"></i>
-  {% when "supervision" %}
+  {% when "advising", "supervision" %}
   <i class="fas fa-hand-point-right"></i>
   {% when "artifact" %}
   <i class="fas fa-archive"></i>
@@ -49,7 +49,7 @@
 <span class="product-title">{{product.title}}</span>
 {% endif %}
 <div class="product-info-box">
-  <span class="product-kind">{{product.kind date| capitalize}}</span>
+  <span class="product-kind">{{product.kind | capitalize}}</span>
   {% if product.source %}
   <a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
   {% endif %}
