@@ -1,9 +1,10 @@
 # Showcase: Academic works of Benjamin Bisping
 
+Live on https://bbisping.de
 
 ## How to build
 
-Benötigt npm für Abhängigkeitsmanagement und ImageMagick für Thumbnail-Erstellung.
+Needs `npm` for dependencies / building:
 
 ```
 npm install
@@ -11,9 +12,9 @@ npm run ruby-deps
 npm run build
 ```
 
-Die Jekyll-Seite sollte nun unter `_site` zu finden sein.
+This will render a Jekyll site to `./_site/`.
 
-Alternativ kann auch ein lokaler Entwicklungsserver gestartet werden mit:
+To start up a local dev server:
 
 ```
 npm run dev
@@ -21,4 +22,4 @@ npm run dev
 
 ## Credits
 
-Das Theme basiert auf Youssef Raafats [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
+Theme based on Youssef Raafat's [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
