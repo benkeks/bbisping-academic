@@ -82,6 +82,18 @@ main.container {
   color: black;
 }
 
+.tagged-wip > .product-kind-icon, .tagged-wip > .product-short-title {
+  animation: blinker 2s ease-in-out infinite;
+}
+@keyframes blinker {  
+  50% { opacity: .3; }
+}
+.tagged-wip .product-title::after {
+  content: " (w.i.p.)";
+  opacity: .5;
+  animation: blinker 2s ease-in-out infinite;
+}
+
 .product-pin .product-title {
   display: none;
 }
