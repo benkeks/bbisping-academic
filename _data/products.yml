@@ -594,6 +594,47 @@
   tags: [reactive bisimilarity]
   tech: ["typescript", "phaser"]
   area: timed-systems
+- id: ba2023-bl
+  title: "An educational computer game about counterfactual truth conditions"
+  short_title: "Computer game about counterfactual truth conditions"
+  authors: "Bruno Lönne"
+  kind: supervision
+  date: 2023-01
+  url: https://brunololos.github.io/counterfactuals-demo/
+  source: https://github.com/Brunololos/counterfactuals-demo
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [counterfactuals]
+  tech: ["typescript", "phaser"]
+  area: causality
 
+- id: arxiv23-process-eq-energygames
+  title: "Process Equivalence Problems as Energy Games"
+  kind: paper
+  authors: [Benjamin Bisping]
+  url: https://arxiv.org/abs/2303.08904
+  date: 2023-03
+  pos_date: 2023-02
+  venue: arXiv
+  tags: [equivalence-spectrum, game-characterization, energy-games, wip]
+  area: equivalences
+- id: lfcs23-process-eq-talk
+  title: "Energy games to navigate the landscape of behavioural equivalences"
+  short_title: "Energy games to navigate the landscape o equivalences"
+  kind: talk
+  url: https://prezi.com/view/JdouG3FazwIAFVPscWiQ/
+  pos_date: 2023-03
+  date: 2023-03-30
+  venue: "LFCS University of Edinburgh"
+  venue_url: https://web.inf.ed.ac.uk/lfcs
+  area: equivalences
+  tags: [equivalence-spectrum, game-characterization, energy-games]
 
-
+- id: sose23-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2023-04
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming, wip]
+  area: software-engineering
