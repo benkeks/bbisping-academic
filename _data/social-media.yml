@@ -41,7 +41,12 @@ twitter:
   icon  : fab fa-twitter
   color : 1da1f2
 
+googlescholar:
+  url   : https://scholar.google.com/
+  icon  : fa-brands fa-google
+  color : 4185f4
+
 office:
-  url   : https://www.mtv.tu-berlin.de/
+  url   : https://www.mtv.tu-berlin.de
   icon  : "far fa-building"
   color : c40d1e

@@ -22,10 +22,11 @@ author:
   image             : "assets/img/bb.jpg"
   email             : benjamin.bisping@tu-berlin.de
   orcid             : 0000-0002-0637-0171
+  googlescholar     : citations?user=D1Pt_VsAAAAJ
   github            : benkeks
   twitter           : benkeks
   homepage          : https://www.mtv.tu-berlin.de/menue/organisation/team/bisping_wm/
-  office            : menue/organisation/team/bisping_wm/
+  office            : /
 
 ### Posts ###
 permalink: /blog/:title
