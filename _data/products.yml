@@ -533,6 +533,19 @@
   area: software-engineering
   links:
     continues: [sose21-modysy]
+- id: web2022-prmtv
+  kind: website
+  title: "pr.mtv.tu-berlin.de"
+  venue: TU Berlin
+  date: 2022-07
+  pos_date: 2022-06
+  url: https://pr.mtv.tu-berlin.de
+  source: https://git.tu-berlin.de/modysy-forever/modysy-showcase
+  tech: [jekyll]
+  description: "I set up a showcase for the student projects of my practical course."
+  area: software-engineering
+  links:
+    accompanies: [sose22-modysy]
 
 - id: ba2022-tmd
   title: "Developing an educational tool for Linear-time–Branching-time Spectroscopy"
