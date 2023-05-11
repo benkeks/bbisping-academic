@@ -239,6 +239,8 @@
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
+  links:
+    continues: [wise18-modysy]
 - id: sose19-isalab
   title: "Introduction into interactive theorem proving (Isabelle-Lab)"
   kind: course
@@ -256,6 +258,8 @@
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
+  links:
+    continues: [sose19-modysy]
 - id: dcon20-countercactuals
   title: Counterfactuals, Dispositions, and Hyperproperties
   kind: talk
@@ -272,6 +276,8 @@
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
+  links:
+    continues: [wise19-modysy]
 - id: ba2020-dp
   title: "Process equivalences as a video game"
   authors: Dominik Peacock
@@ -354,6 +360,8 @@
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
+  links:
+    continues: [sose20-modysy]
 - id: ba2020-tw
   title: "Charting the jungle of process calculi encodings"
   authors: Tobias Wittig
@@ -415,6 +423,8 @@
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
+  links:
+    continues: [wise20-modysy]
 - id: ba2021-lm
   title: "Kontrasimulation als Spiel"
   authors: Luisa Montanari
@@ -521,6 +531,8 @@
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
+  links:
+    continues: [sose21-modysy]
 
 - id: ba2022-tmd
   title: "Developing an educational tool for Linear-time–Branching-time Spectroscopy"
@@ -638,3 +650,5 @@
   venue: MTV TU Berlin
   tags: [game-programming, wip]
   area: software-engineering
+  links:
+    continues: [sose22-modysy]
