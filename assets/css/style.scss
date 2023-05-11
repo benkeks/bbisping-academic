@@ -200,8 +200,14 @@ main.container {
   opacity: .5;
   transition: opacity .5s;
 }
-#product-canvas path.area:hover, #product-canvas path.area.area-focussed {
+#product-canvas path.area.area-focussed:hover {
   opacity: .8;
+  cursor: initial;
+  transition: opacity .5s;
+}
+#product-canvas path.area:hover {
+  opacity: .9;
+  cursor: help;
   transition: opacity .5s;
   stroke: white;
 }

@@ -161,6 +161,7 @@ function focusArea(areaName) {
 
   currentStack = stacking(areaGraph);
   path.data(currentStack)
+    .classed("area-focussed", a => {console.log(a); return a.key == areaName})
     .transition()
     .duration(400)
     .attr("d", graphShapes);
