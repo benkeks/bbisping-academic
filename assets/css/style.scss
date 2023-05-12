@@ -144,6 +144,10 @@ main.container {
   position: relative;
   margin-bottom: 10px;
 }
+.product-pin .product-venue,
+.product-pin .product-date {
+  white-space: nowrap;
+}
 .product-pin.expanded .product-venue,
 .product-pin.expanded .product-date,
 .product-pin.expanded .product-authors,
@@ -153,6 +157,10 @@ main.container {
 .product-pin .product-kind {
   opacity: 1;
   transition: opacity 1s;
+}
+.product-pin.expanded .product-supervisors {
+  text-indent: -1em;
+  padding-left: 1em;
 }
 .product-pin.expanded .product-venue-date-box, .product-pin.expanded .product-info-box {
   background-color: rgba(255, 255, 255, 0.6);
@@ -181,8 +189,7 @@ main.container {
   z-index: 5;
 }
 .product-pin .product-info-box {
-  display: table;
-  margin-top: 3px;
+  display: flex;
   width: 0px;
   z-index: 5;
 }
