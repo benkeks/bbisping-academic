@@ -61,7 +61,7 @@ const areaInfos = d3.selectAll(".area-info")
   .datum(function() { return this.dataset; });
 
 const products = d3.selectAll("div.product")
-  .on("click", expandProduct);
+  .on("click", function (e, d) { navigateFocus(this.id); });
 // fetch data from dom
 products.datum(function() { return {
   date: new Date(this.dataset.date),
@@ -136,7 +136,7 @@ const path = svg.selectAll("path")
     .classed("area", true)
     .attr("id", (d,i) => "area-" + areas[i].id)
     .attr("fill", (d,i) => `url(#pattern-${areas[i].id})`)
-    .on("click", (e,d) => focusArea(d.key));
+    .on("click", (e,d) => navigateFocus("area-" + d.key));
 
 const yearMarks = d3.selectAll(".year-mark")
   .datum(function() { return {year: parseInt(this.dataset.year)}; });
@@ -151,9 +151,28 @@ d3.select("#show-times")
     focusArea("");
   });
 
-
 setCap({{cap_at_year}});
 focusArea("");
+focusByUrl();
+
+window.addEventListener('hashchange', focusByUrl);
+
+function navigateFocus(key) {
+  //window.location.hash = "#" + key
+  window.history.pushState({}, '', '#' + key);
+  focusByUrl();
+}
+
+function focusByUrl() {
+  if (window.location.hash.startsWith('#area-')) {
+    const target = window.location.hash.substring(6);
+    focusArea(target);
+  } else if (window.location.hash.startsWith('#product-')) {
+    const target = window.location.hash;
+    d3.select(target).each(expandProduct);
+    focusArea("");
+  }
+}
 
 function focusArea(areaName) {
   focus = areaName;
@@ -161,7 +180,7 @@ function focusArea(areaName) {
 
   currentStack = stacking(areaGraph);
   path.data(currentStack)
-    .classed("area-focussed", a => {console.log(a); return a.key == areaName})
+    .classed("area-focussed", a => {return a.key == areaName})
     .transition()
     .duration(400)
     .attr("d", graphShapes);

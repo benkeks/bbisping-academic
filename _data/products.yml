@@ -644,6 +644,10 @@
   venue: arXiv
   tags: [equivalence-spectrum, game-characterization, energy-games, wip]
   area: equivalences
+  description: "I start using energy games to characterize equivalences, and show how this can be used for much better complexities than in [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs)."
+  links:
+    continues: lmcs22-deciding-all-eqs
+
 - id: lfcs23-process-eq-talk
   title: "Energy games to navigate the landscape of behavioural equivalences"
   short_title: "Energy games to navigate the landscape of equivalences"
@@ -655,6 +659,8 @@
   venue_url: https://web.inf.ed.ac.uk/lfcs
   area: equivalences
   tags: [equivalence-spectrum, game-characterization, energy-games]
+  links:
+    accompanies: arxiv23-process-eq-energygames
 
 - id: sose23-modysy
   title: "Models of Dynamic Systems"
