@@ -471,7 +471,7 @@
   tags: [contrasimilarity, game characterization, highlight]
   area: weak-equivalences
 
-- id: sose19-isalab
+- id: sose21-isalab
   title: "Introduction into interactive theorem proving (Isabelle-Lab)"
   kind: course
   date: 2021-09
@@ -642,11 +642,11 @@
   date: 2023-03
   pos_date: 2023-02
   venue: arXiv
-  tags: [equivalence-spectrum, game-characterization, energy-games, wip]
+  tags: [equivalence-spectrum, game-characterization, energy-games]
   area: equivalences
   description: "I start using energy games to characterize equivalences, and show how this can be used for much better complexities than in [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs)."
   links:
-    continues: lmcs22-deciding-all-eqs
+    continues: [lmcs22-deciding-all-eqs]
 
 - id: lfcs23-process-eq-talk
   title: "Energy games to navigate the landscape of behavioural equivalences"
@@ -660,7 +660,7 @@
   area: equivalences
   tags: [equivalence-spectrum, game-characterization, energy-games]
   links:
-    accompanies: arxiv23-process-eq-energygames
+    accompanies: [arxiv23-process-eq-energygames]
 
 - id: sose23-modysy
   title: "Models of Dynamic Systems"
@@ -672,3 +672,16 @@
   area: software-engineering
   links:
     continues: [sose22-modysy]
+
+- id: arxiv23-silent-step-spectrum
+  title: "Linear-Time–Branching-Time Spectroscopy Accounting for Silent Steps"
+  kind: paper
+  authors: [Benjamin Bisping, David N. Jansen]
+  url: https://doi.org/10.48550/arXiv.2305.17671
+  date: 2023-05
+  venue: arXiv
+  tags: [branching-bisimilarity, contrasimilarity, equivalence-spectrum, game-characterization, energy-games, wip]
+  area: weak-equivalences
+  description: "David and I discuss how to transfer the approach of [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs) to the weak spectrum (with silent steps)."
+  links:
+    continues: [arxiv23-process-eq-energygames, expresssos21-contrasim-game]
