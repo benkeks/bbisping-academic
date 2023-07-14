@@ -668,7 +668,7 @@
   date: 2023-04
   url: https://pr.mtv.tu-berlin.de/
   venue: MTV TU Berlin
-  tags: [game-programming, wip]
+  tags: [game-programming]
   area: software-engineering
   links:
     continues: [sose22-modysy]
@@ -685,3 +685,29 @@
   description: "David and I discuss how to transfer the approach of [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs) to the weak spectrum (with silent steps)."
   links:
     continues: [arxiv23-process-eq-energygames, expresssos21-contrasim-game]
+
+- id: cav23-equivalence-energy-games
+  title: Process Equivalence Problems as Energy Games
+  kind: talk
+  url:
+  pos_date: 2023-06
+  date: 2023-07-22
+  venue: "CAV 2023, Paris"
+  venue_url: http://www.i-cav.org/2023/program/
+  area: equivalences
+  tags: [equivalence-spectrum, game-characterization, energy-games, wip]
+
+- id: highlights23-games-decide-all
+  title: "Games to Decide All Behavioral Equivalences at Once"
+  short_title: "Games to Decide All Behavioral Equivalences"
+  kind: talk
+  url:
+  pos_date: 2023-07
+  date: 2023-07-25
+  venue: "HIGHLIGHTS'23, Kassel"
+  venue_url: https://highlights-conference.org/2023/accepted
+  area: equivalences
+  tags: [equivalence-spectrum, game-characterization, energy-games, wip]
+  links:
+    accompanies: [arxiv23-process-eq-energygames]
+  poster: /material/bisping_highlights23_spectroscopy.pdf
