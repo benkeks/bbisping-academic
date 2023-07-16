@@ -54,6 +54,9 @@
 {% endif %}
 <div class="product-info-box">
   <span class="product-kind">{{product.kind | capitalize}}</span>
+  {% if product.report %}
+  <a href="{{product.report}}" title="Report" class="product-report"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+  {% endif %}
   {% if product.source %}
   <a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
   {% endif %}
