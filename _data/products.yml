@@ -634,15 +634,15 @@
   tech: ["typescript", "phaser"]
   area: causality
 
-- id: arxiv23-process-eq-energygames
+- id: cav23-process-eq-energygames
   title: "Process Equivalence Problems as Energy Games"
   kind: paper
   authors: [Benjamin Bisping]
-  url: https://arxiv.org/abs/2303.08904
-  date: 2023-03
-  pos_date: 2023-02
-  venue: arXiv
-  tags: [equivalence-spectrum, game-characterization, energy-games]
+  url: https://doi.org/10.1007/978-3-031-37706-8_5
+  report: https://arxiv.org/abs/2303.08904
+  date: 2023-08
+  venue: "CAV'23, LNCS 13964"
+  tags: [equivalence-spectrum, game-characterization, energy-games, highlight]
   area: equivalences
   description: "I start using energy games to characterize equivalences, and show how this can be used for much better complexities than in [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs)."
   links:
@@ -660,7 +660,7 @@
   area: equivalences
   tags: [equivalence-spectrum, game-characterization, energy-games]
   links:
-    accompanies: [arxiv23-process-eq-energygames]
+    accompanies: [cav23-process-eq-energygames]
 
 - id: sose23-modysy
   title: "Models of Dynamic Systems"
@@ -684,7 +684,7 @@
   area: weak-equivalences
   description: "David and I discuss how to transfer the approach of [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs) to the weak spectrum (with silent steps)."
   links:
-    continues: [arxiv23-process-eq-energygames, expresssos21-contrasim-game]
+    continues: [cav23-process-eq-energygames, expresssos21-contrasim-game]
 
 - id: cav23-equivalence-energy-games
   title: Process Equivalence Problems as Energy Games
@@ -709,5 +709,5 @@
   area: equivalences
   tags: [equivalence-spectrum, game-characterization, energy-games, wip]
   links:
-    accompanies: [arxiv23-process-eq-energygames]
+    accompanies: [cav23-process-eq-energygames]
   poster: /material/bisping_highlights23_spectroscopy.pdf
