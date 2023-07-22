@@ -686,16 +686,18 @@
   links:
     continues: [cav23-process-eq-energygames, expresssos21-contrasim-game]
 
-- id: cav23-equivalence-energy-games
+- id: cav23-process-eq-energygames-talk
   title: Process Equivalence Problems as Energy Games
   kind: talk
-  url:
+  url: https://prezi.com/view/wrK3tz3oWt8UcM0j3h3n/
   pos_date: 2023-06
   date: 2023-07-22
   venue: "CAV 2023, Paris"
   venue_url: http://www.i-cav.org/2023/program/
   area: equivalences
-  tags: [equivalence-spectrum, game-characterization, energy-games, wip]
+  tags: [equivalence-spectrum, game-characterization, energy-games]
+  links:
+    accompanies: [cav23-process-eq-energygames]
 
 - id: highlights23-games-decide-all
   title: "Games to Decide All Behavioral Equivalences at Once"
