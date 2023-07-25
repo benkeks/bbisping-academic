@@ -703,13 +703,13 @@
   title: "Games to Decide All Behavioral Equivalences at Once"
   short_title: "Games to Decide All Behavioral Equivalences"
   kind: talk
-  url:
+  url: https://prezi.com/view/2wi4RphjZ4iBoFUiXrYX/
   pos_date: 2023-07
   date: 2023-07-25
   venue: "HIGHLIGHTS'23, Kassel"
   venue_url: https://highlights-conference.org/2023/accepted
   area: equivalences
-  tags: [equivalence-spectrum, game-characterization, energy-games, wip]
+  tags: [equivalence-spectrum, game-characterization, energy-games]
   links:
     accompanies: [cav23-process-eq-energygames]
   poster: /material/bisping_highlights23_spectroscopy.pdf
