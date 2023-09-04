@@ -713,3 +713,12 @@
   links:
     accompanies: [cav23-process-eq-energygames]
   poster: /material/bisping_highlights23_spectroscopy.pdf
+
+- id: wise23-raw
+  title: "Research at Work (Master project course)"
+  kind: course
+  date: 2023-10
+  url: https://orga.mtv.tu-berlin.de/s/vMywJqNv0
+  venue: MTV TU Berlin
+  tags: [wip, isabelle, equivalence-spectrum]
+  area: functional-programming
