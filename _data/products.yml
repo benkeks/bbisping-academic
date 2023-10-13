@@ -718,6 +718,7 @@
   title: "Research at Work (Master project course)"
   kind: course
   date: 2023-10
+  pos_date: 2023-11
   url: https://orga.mtv.tu-berlin.de/s/vMywJqNv0
   venue: MTV TU Berlin
   tags: [wip, isabelle, equivalence-spectrum]
@@ -736,3 +737,18 @@
   links:
     accompanies: [master18-coupledsim, expresssos21-contrasim-game]
   area: weak-equivalences
+
+- id: ba2023-fo
+  title: "Integration eines generischen Äquivalenzprüfers in CAAL"
+  authors: Fabian Ozegowski
+  kind: advising
+  date: 2023-10
+  url: https://fabian-o01.github.io/CAAL/
+  source: https://github.com/Fabian-O01/CAAL
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [equivalence-spectrum, game-characterization, energy-games]
+  links:
+    accompanies: [cav23-process-eq-energygames]
+  tech: ["typescript"]
+  area: equivalences
