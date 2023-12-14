@@ -752,3 +752,16 @@
     accompanies: [cav23-process-eq-energygames]
   tech: ["typescript"]
   area: equivalences
+
+- id: ba2023-jh
+  title: "Nonlinear Counterfactuals in Isabelle/HOL"
+  authors: Johannes Hauschild
+  kind: advising
+  date: 2023-12
+  url: https://johanneshauschild.github.io/NonlinearCounterfactuals/NLC/Nonlinear_Counterfactuals/document.pdf
+  source: https://github.com/johanneshauschild/NonlinearCounterfactuals
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Bernd Finkbeiner]
+  tags: [counterfactuals, temporal logics]
+  tech: ["isabelle"]
+  area: causality
