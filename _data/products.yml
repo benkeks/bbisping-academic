@@ -620,6 +620,17 @@
   tags: [reactive bisimilarity]
   tech: ["typescript", "phaser"]
   area: timed-systems
+- id: markdown-basic
+  title: "MD Basic"
+  kind: tool
+  date: 2023-01
+  venue: "X-mas project"
+  pos_date: 2023-02
+  description: "An interpreter that processes web documents as BASIC source."
+  url: https://benkeks.github.io/markdown-basic/
+  source: https://github.com/benkeks/markdown-basic
+  tags: [webdev, basic]
+  area: software-engineering
 - id: ba2023-bl
   title: "An educational computer game about counterfactual truth conditions"
   short_title: "Computer game about counterfactual truth conditions"
