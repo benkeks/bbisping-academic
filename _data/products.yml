@@ -776,3 +776,25 @@
   tags: [counterfactuals, temporal logics]
   tech: ["isabelle"]
   area: causality
+
+
+- id: sose24-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2024-05
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [wip, game-programming]
+  area: software-engineering
+  links:
+    continues: [sose23-modysy]
+- id: sose24-wrap
+  title: "Write, Review, and Publish (Master seminar)"
+  kind: course
+  date: 2024-04
+  url: https://orga.mtv.tu-berlin.de/s/iSB_PdF0R
+  venue: MTV TU Berlin
+  tags: [wip, academic-writing]
+  area: functional-programming
+  links:
+    continues: [wise23-raw]
