@@ -798,3 +798,13 @@
   area: functional-programming
   links:
     continues: [wise23-raw]
+
+- id: dcon24-concurrencyGames
+  title: "Concurrency Formalisms as Computer Games"
+  kind: talk
+  date: 2024-02-29
+  pos_date: 2024-02
+  venue: D-CON 2024, Oldenburg
+  venue_url: https://uol.de/informatik/formale-methoden/forschung/workshops/d-con-2024
+  area: software-engineering
+  url: https://miro.com/app/board/uXjVNsXAXjA=/
