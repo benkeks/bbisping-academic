@@ -777,7 +777,6 @@
   tech: ["isabelle"]
   area: causality
 
-
 - id: sose24-modysy
   title: "Models of Dynamic Systems"
   kind: course
@@ -801,6 +800,7 @@
 
 - id: dcon24-concurrencyGames
   title: "Concurrency Formalisms as Computer Games"
+  short_title: "Concurrency Formalisms as Games"
   kind: talk
   date: 2024-02-29
   pos_date: 2024-02
@@ -808,3 +808,17 @@
   venue_url: https://uol.de/informatik/formale-methoden/forschung/workshops/d-con-2024
   area: software-engineering
   url: https://miro.com/app/board/uXjVNsXAXjA=/
+
+- id: ba2024-km
+  title: "Measuring expressive power of HML formulas in Isabelle/HOL"
+  authors: Karl Mattes
+  kind: advising
+  date: 2024-04
+  pos_date: 2024-03
+  url: https://github.com/ekeln/BA_formula_prices/raw/main/output/outline.pdf
+  source: https://github.com/ekeln/BA_formula_prices/
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [hml, equivalence-spectrum]
+  tech: ["isabelle"]
+  area: equivalences
