@@ -791,6 +791,7 @@
   title: "Write, Review, and Publish (Master seminar)"
   kind: course
   date: 2024-04
+  pos_date: 2024-06
   url: https://orga.mtv.tu-berlin.de/s/iSB_PdF0R
   venue: MTV TU Berlin
   tags: [wip, academic-writing]
@@ -821,4 +822,17 @@
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
   tags: [hml, equivalence-spectrum]
   tech: ["isabelle"]
+  area: equivalences
+- id: ba2024-gv
+  title: "Accelerating Process Equivalence Energy Games using WebGPU"
+  authors: Gabriel Vogel
+  kind: advising
+  date: 2024-04
+  pos_date: 2024-04
+  url: https://github.com/Gobbel2000/thesis-gpuequiv/
+  source: https://github.com/Gobbel2000/gpuequiv
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [energy-games, equivalence-spectrum]
+  tech: ["webgpu", "rust"]
   area: equivalences
