@@ -746,7 +746,7 @@
   tech: [isabelle]
   tags: [coupled similarity, contrasimilarity, game-characterization]
   links:
-    accompanies: [master18-coupledsim, expresssos21-contrasim-game]
+    accompanies: [master18-coupledsim, expresssos21-contrasim-game, iac2024-contrasim-characterizations]
   area: weak-equivalences
 
 - id: ba2023-fo
@@ -799,7 +799,7 @@
   links:
     continues: [wise23-raw]
 
-- id: dcon24-concurrencyGames
+- id: dcon24-concurrency-games
   title: "Concurrency Formalisms as Computer Games"
   short_title: "Concurrency Formalisms as Games"
   kind: talk
@@ -836,3 +836,16 @@
   tags: [energy-games, equivalence-spectrum]
   tech: ["webgpu", "rust"]
   area: equivalences
+
+- id: iac2024-contrasim-characterizations
+  title: "Characterizing Contrasimilarity through Games, Modal Logic, and Complexity"
+  kind: article
+  authors: [Benjamin Bisping, Luisa Montanari]
+  url: https://doi.org/10.1016/j.ic.2024.105191
+  date: 2024-07
+  venue: Information and Computation
+  venue_url: https://www.sciencedirect.com/special-issue/10K5Q031MWR
+  tags: [contrasimilarity, game characterization, complxity, modal logics, highlight]
+  area: weak-equivalences
+  links:
+    continues: [expresssos21-contrasim-game]
