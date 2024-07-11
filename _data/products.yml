@@ -732,7 +732,7 @@
   pos_date: 2023-11
   url: https://orga.mtv.tu-berlin.de/s/vMywJqNv0
   venue: MTV TU Berlin
-  tags: [wip, isabelle, equivalence-spectrum]
+  tags: [isabelle, equivalence-spectrum]
   area: functional-programming
 
 - id: afp23-coupled-contra
