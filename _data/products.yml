@@ -773,7 +773,7 @@
   source: https://github.com/johanneshauschild/NonlinearCounterfactuals
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Bernd Finkbeiner]
-  tags: [counterfactuals, temporal logics]
+  tags: [counterfactuals, temporal-logics]
   tech: ["isabelle"]
   area: causality
 
@@ -783,7 +783,7 @@
   date: 2024-05
   url: https://pr.mtv.tu-berlin.de/
   venue: MTV TU Berlin
-  tags: [wip, game-programming]
+  tags: [game-programming]
   area: software-engineering
   links:
     continues: [sose23-modysy]
@@ -794,7 +794,7 @@
   pos_date: 2024-06
   url: https://orga.mtv.tu-berlin.de/s/iSB_PdF0R
   venue: MTV TU Berlin
-  tags: [wip, academic-writing]
+  tags: [academic-writing]
   area: functional-programming
   links:
     continues: [wise23-raw]
@@ -836,6 +836,16 @@
   tags: [energy-games, equivalence-spectrum]
   tech: ["webgpu", "rust"]
   area: equivalences
+- id: ba2024-vs
+  title: "Higher-Order Diadic µ-Calculus—An Efficient Framework for Checking Process Equivalences?"
+  authors: Valentin Stöcker
+  kind: advising
+  date: 2024-08
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Martin Lange]
+  tags: [equivalence-spectrum, modal-logics]
+  tech: ["scala"]
+  area: equivalences
 
 - id: iac2024-contrasim-characterizations
   title: "Characterizing Contrasimilarity through Games, Modal Logic, and Complexity"
@@ -849,3 +859,14 @@
   area: weak-equivalences
   links:
     continues: [expresssos21-contrasim-game]
+
+- id: expresssos24-energy-game-weak-spectrum
+  title: "One Energy Game for the Spectrum between Branching Bisimilarity and Weak Trace Semantics"
+  short_title: "One Energy Game for the Weak Spectrum"
+  kind: talk
+  date: 2024-09-08
+  pos_date: 2024-09
+  venue: EXPRESS/SOS 2024, Calgary
+  venue_url: https://express-sos.github.io/
+  tags: [wip]
+  area: weak-equivalences
