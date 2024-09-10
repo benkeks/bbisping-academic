@@ -860,13 +860,14 @@
   links:
     continues: [expresssos21-contrasim-game]
 
-- id: expresssos24-energy-game-weak-spectrum
+- id: expresssos24-energy-game-weak-spectrum-talk
   title: "One Energy Game for the Spectrum between Branching Bisimilarity and Weak Trace Semantics"
   short_title: "One Energy Game for the Weak Spectrum"
   kind: talk
   date: 2024-09-08
   pos_date: 2024-09
+  url: https://prezi.com/view/RhSMYrSrApccDst2jgvz/
   venue: EXPRESS/SOS 2024, Calgary
   venue_url: https://express-sos.github.io/
-  tags: [wip]
+  tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games]
   area: weak-equivalences
