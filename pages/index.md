@@ -7,7 +7,7 @@ weight: 1
 
 {% assign width = 1140 %}
 {% assign height = 4000 %}
-{% assign cap_at_year = 2016 %}
+{% assign cap_at_year = 2019 %}
 
 {% assign products = site.data.products | sort: "date" | reverse %}
 
@@ -44,7 +44,7 @@ weight: 1
   {% endfor %}
 {% endfor %}
 
-<button type="button" id="show-times" class="btn btn-light">Show undergrad times</button>
+<button type="button" id="show-times" class="btn btn-light">Show student times</button>
 </div>
 
 
