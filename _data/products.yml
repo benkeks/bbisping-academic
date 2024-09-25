@@ -838,6 +838,7 @@
   area: equivalences
 - id: ba2024-vs
   title: "Higher-Order Diadic µ-Calculus—An Efficient Framework for Checking Process Equivalences?"
+  short_title: "Higher-Order Diadic µ-Calculus for Checking Process Equivalences"
   authors: Valentin Stöcker
   kind: advising
   date: 2024-08
@@ -849,6 +850,7 @@
 
 - id: iac2024-contrasim-characterizations
   title: "Characterizing Contrasimilarity through Games, Modal Logic, and Complexity"
+  short_title: "Contrasimilarity through Games, Modal Logic, and Complexity"
   kind: article
   authors: [Benjamin Bisping, Luisa Montanari]
   url: https://doi.org/10.1016/j.ic.2024.105191
@@ -871,3 +873,14 @@
   venue_url: https://express-sos.github.io/
   tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games]
   area: weak-equivalences
+
+- id: iscas24-eq-games-talk
+  title: Equivalence Problems as Games
+  kind: talk
+  pos_date: 2024-10
+  date: 2024-09-25
+  venue: "ISCAS, Beijing"
+  area: equivalences
+  tags: [equivalence-spectrum, game-characterization, energy-games]
+  links:
+    accompanies: [cav23-process-eq-energygames]
