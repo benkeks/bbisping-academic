@@ -41,9 +41,14 @@ twitter:
   icon  : fab fa-twitter
   color : 1da1f2
 
+bluesky:
+  url   : https://
+  icon  : fa-brands fa-bluesky
+  color : 0085ff
+
 googlescholar:
   url   : https://scholar.google.com/
-  icon  : fa-brands fa-google
+  icon  : fa-brands fa-google-scholar
   color : 4185f4
 
 office:
