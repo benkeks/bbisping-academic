@@ -691,7 +691,7 @@
   url: https://doi.org/10.48550/arXiv.2305.17671
   date: 2023-05
   venue: arXiv
-  tags: [branching-bisimilarity, contrasimilarity, equivalence-spectrum, game-characterization, energy-games, wip]
+  tags: [branching-bisimilarity, contrasimilarity, equivalence-spectrum, game-characterization, energy-games]
   area: weak-equivalences
   description: "David and I discuss how to transfer the approach of [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs) to the weak spectrum (with silent steps)."
   links:
@@ -869,17 +869,30 @@
   date: 2024-09-08
   pos_date: 2024-09
   url: https://prezi.com/view/RhSMYrSrApccDst2jgvz/
-  venue: EXPRESS/SOS 2024, Calgary
+  venue: EXPRESS/SOS 2024 @ CONCUR, Calgary
   venue_url: https://express-sos.github.io/
   tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games]
   area: weak-equivalences
-
+  links:
+    accompanies: [expresssos24-energy-game-weak-spectrum-paper]
+- id: expresssos24-energy-game-weak-spectrum-paper
+  title: "One Energy Game for the Spectrum between Branching Bisimilarity and Weak Trace Semantics"
+  short_title: "One Energy Game for the Weak Spectrum"
+  kind: paper
+  authors: [Benjamin Bisping, David Jansen]
+  url: https://doi.org/10.4204/EPTCS.412.6
+  date: 2024-11
+  venue: EPTCS 412 of EXPRESS/SOS 2024
+  venue_url: https://cgi.cse.unsw.edu.au/~eptcs/content.cgi?EXPRESSSOS2024
+  tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games, highlight]
+  area: weak-equivalences
 - id: iscas24-eq-games-talk
   title: Equivalence Problems as Games
   kind: talk
   pos_date: 2024-10
   date: 2024-09-25
   venue: "ISCAS, Beijing"
+  url: https://prezi.com/view/HYAdhpisHyMlrAOGloh3/
   area: equivalences
   tags: [equivalence-spectrum, game-characterization, energy-games]
   links:
