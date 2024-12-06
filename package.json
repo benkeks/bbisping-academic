@@ -9,7 +9,7 @@
     "d3": "^7.6.1"
   },
   "scripts": {
-    "ruby-deps": "gem install bundler && bundle install",
+    "ruby-deps": "gem install bundler --user-install && bundle install",
     "dev": "bundle exec jekyll serve --trace --livereload",
     "build": "bundle exec jekyll build"
   }
