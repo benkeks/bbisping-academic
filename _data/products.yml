@@ -897,3 +897,16 @@
   tags: [equivalence-spectrum, game-characterization, energy-games]
   links:
     accompanies: [cav23-process-eq-energygames]
+
+- id: ma2024-cl
+  title: "A Formal Proof of Decidability of Multi-Weighted Declining Energy Games"
+  short_title: "Decidability of Declining Energy Games"
+  authors: Caroline Lemke
+  kind: advising
+  date: 2024-11
+  pos_date: 2024-12
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Uli Fahrenberg]
+  tags: [games, energy-games]
+  tech: ["isabelle"]
+  area: software-engineering
