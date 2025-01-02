@@ -586,7 +586,7 @@
 
 - id: ba2022-za
   title: "Automatisierte Reduktion von reaktiver zu starker Bisimilarität"
-  authors: Zead Alshukariri
+  authors: Zead Alshukairi
   kind: advising
   date: 2022-11
   pos_date: 2022-10
@@ -898,6 +898,18 @@
   links:
     accompanies: [cav23-process-eq-energygames]
 
+- id: ba2024-tk
+  title: "Implementierung eines Contrasimilarity-Checkers für mCRL2"
+  short_title: "Contrasimilarity für mCRL2"
+  authors: Tilo Kurzan
+  kind: advising
+  date: 2024-11
+  pos_date: 2024-12
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Stephan Kreutzer]
+  tags: [contra-similarity]
+  tech: ["cpp", "mcrl2"]
+  area: weak-equivalences
 - id: ma2024-cl
   title: "A Formal Proof of Decidability of Multi-Weighted Declining Energy Games"
   short_title: "Decidability of Declining Energy Games"
