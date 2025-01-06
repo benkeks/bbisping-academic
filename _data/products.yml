@@ -306,7 +306,7 @@
 - id: tool20-spectroscope
   title: "Linear-time–Branching-time Spectroscope"
   kind: tool
-  url: https://concurrency-theory.org/ltbt-spectroscope/
+  url: https://equiv.io
   source: https://github.com/benkeks/equivalence-fiddle/
   date: 2020-08
   tags: [equivalence-spectrum, game characterization, highlight]
@@ -916,9 +916,20 @@
   authors: Caroline Lemke
   kind: advising
   date: 2024-11
-  pos_date: 2024-12
+  pos_date: 2025-01
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Uli Fahrenberg]
   tags: [games, energy-games]
   tech: ["isabelle"]
-  area: software-engineering
+  area: functional-programming
+
+- id: diss2025-generalize-eq-checking
+  title: "Generalized Equivalence Checking of Concurrent Programs"
+  kind: thesis
+  date: 2025-04
+  venue: MTV TU Berlin
+  supervisors: [Rob van Glabbeek, Uwe Nestmann]
+  url: https://benkeks.github.io/generalized-equivalence-checking/
+  tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, wip]
+  tech: ["scala", "isabelle"]
+  area: equivalences
