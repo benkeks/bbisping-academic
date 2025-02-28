@@ -919,9 +919,21 @@
   pos_date: 2025-01
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Uli Fahrenberg]
+  url: https://github.com/crmrtz/galois-energy-games/blob/main/masters_thesis.pdf
+  source: https://github.com/crmrtz/galois-energy-games/
   tags: [games, energy-games]
   tech: ["isabelle"]
   area: functional-programming
+
+- id: dcon25-equivalence-energy-games
+  title: "Deciding All Behavioral Equivalences at Once through Energy Games"
+  kind: talk
+  date: 2025-03-06
+  pos_date: 2025-03
+  venue: D-CON 2025, Augsburg
+  venue_url: https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/swtti/forschung/d-con-2025/
+  area: equivalences
+  url: https://prezi.com/view/uWuH4JhPY3ObarCNVmgH/
 
 - id: diss2025-generalize-eq-checking
   title: "Generalized Equivalence Checking of Concurrent Programs"
