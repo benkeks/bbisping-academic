@@ -935,13 +935,24 @@
   area: equivalences
   url: https://prezi.com/view/uWuH4JhPY3ObarCNVmgH/
 
+- id: sose25-modysy
+  title: "Models of Dynamic Systems"
+  kind: course
+  date: 2025-04
+  url: https://pr.mtv.tu-berlin.de/
+  venue: MTV TU Berlin
+  tags: [game-programming]
+  area: software-engineering
+  links:
+    continues: [sose24-modysy]
 - id: diss2025-generalize-eq-checking
   title: "Generalized Equivalence Checking of Concurrent Programs"
   kind: thesis
-  date: 2025-04
+  date: 2025-05
   venue: MTV TU Berlin
-  supervisors: [Rob van Glabbeek, Uwe Nestmann]
-  url: https://benkeks.github.io/generalized-equivalence-checking/
-  tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, wip]
+  supervisors: [Rob van Glabbeek, Jan Friso Groote, Uwe Nestmann]
+  url: https://generalized-equivalence-checking.equiv.io/
+  source: https://github.com/benkeks/generalized-equivalence-checking
+  tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, highlight]
   tech: ["scala", "isabelle"]
   area: equivalences
