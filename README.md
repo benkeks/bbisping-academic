@@ -2,6 +2,8 @@
 
 Live on https://bbisping.de
 
+[![Screenshot of the site](material/bbisping.de.png)](https://bbisping.de)
+
 ## How to build
 
 Needs `npm` for dependencies / building:
