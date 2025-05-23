@@ -956,3 +956,16 @@
   tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, highlight]
   tech: ["scala", "isabelle"]
   area: equivalences
+
+- id: wip25-galois-energy-games
+  title: "Galois Energy Games: To Solve All Kinds of Quantitative Reachability Problems"
+  title_short: "Galois Energy Games"
+  kind: paper
+  authors: [Caroline Lemke, Benjamin Bisping]
+  url: https://arxiv.org/abs/2505.14691
+  date: 2025-05
+  pos_date: 2025-06
+  venue: arXiv
+  tags: [energy-games, wip]
+  tech: ["isabelle"]
+  area: functional-programming
