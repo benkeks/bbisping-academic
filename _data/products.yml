@@ -927,6 +927,7 @@
 
 - id: dcon25-equivalence-energy-games
   title: "Deciding All Behavioral Equivalences at Once through Energy Games"
+  short_title: "Deciding All Behavioral Equivalences"
   kind: talk
   date: 2025-03-06
   pos_date: 2025-03
@@ -959,12 +960,11 @@
 
 - id: wip25-galois-energy-games
   title: "Galois Energy Games: To Solve All Kinds of Quantitative Reachability Problems"
-  title_short: "Galois Energy Games"
+  short_title: "Galois Energy Games"
   kind: paper
   authors: [Caroline Lemke, Benjamin Bisping]
   url: https://arxiv.org/abs/2505.14691
-  date: 2025-05
-  pos_date: 2025-06
+  date: 2025-08
   venue: arXiv
   tags: [energy-games, wip]
   tech: ["isabelle"]
@@ -972,7 +972,7 @@
 
 - id: pacts25-equivalence-energy-games
   title: "Deciding All Behavioral Equivalences at Once through Energy Games"
-  title_short: "Deciding All Behavioral Equivalences"
+  short_title: "Deciding All Behavioral Equivalences"
   kind: talk
   date: 2025-06-18
   pos_date: 2025-06
