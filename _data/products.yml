@@ -969,3 +969,14 @@
   tags: [energy-games, wip]
   tech: ["isabelle"]
   area: functional-programming
+
+- id: pacts25-equivalence-energy-games
+  title: "Deciding All Behavioral Equivalences at Once through Energy Games"
+  title_short: "Deciding All Behavioral Equivalences"
+  kind: talk
+  date: 2025-06-18
+  pos_date: 2025-06
+  venue: P-ACTS, Paris
+  venue_url: https://p-acts.github.io/
+  area: equivalences
+  url: https://prezi.com/view/C6MxIUD0O8Ola41BCCwx/
