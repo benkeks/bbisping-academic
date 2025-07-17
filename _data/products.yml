@@ -957,6 +957,19 @@
   tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, highlight]
   tech: ["scala", "isabelle"]
   area: equivalences
+- id: disputation2025-generalize-eq-checking
+  title: "Thesis Defense: Generalized Equivalence Checking of Concurrent Programs"
+  kind: talk
+  date: 2025-07-28
+  pos_date: 2025-07
+  venue: BEL 301, Villa Bell, TU Berlin
+  supervisors: [Rob van Glabbeek, Jan Friso Groote, Uwe Nestmann]
+  url: https://generalized-equivalence-checking.equiv.io/#thesis-defense-2025-07-28
+  tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, highlight]
+  tech: ["scala", "isabelle"]
+  area: equivalences
+  links:
+    accompanies: [sose24-modysy]
 
 - id: wip25-galois-energy-games
   title: "Galois Energy Games: To Solve All Kinds of Quantitative Reachability Problems"
@@ -980,3 +993,4 @@
   venue_url: https://p-acts.github.io/
   area: equivalences
   url: https://prezi.com/view/C6MxIUD0O8Ola41BCCwx/
+
