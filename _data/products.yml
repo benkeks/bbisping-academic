@@ -940,7 +940,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2025-04
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7353690120350306304/
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -964,8 +964,8 @@
   pos_date: 2025-07
   venue: BEL 301, Villa Bell, TU Berlin
   supervisors: [Rob van Glabbeek, Jan Friso Groote, Uwe Nestmann]
-  url: https://generalized-equivalence-checking.equiv.io/#thesis-defense-2025-07-28
-  tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games, highlight]
+  url: https://prezi.com/view/tCZ9ziXwIpofRlXhBULB/
+  tags: [equivalence-spectrum, game-characterization, branching-bisimilarity, energy-games]
   tech: ["scala", "isabelle"]
   area: equivalences
   links:
@@ -993,4 +993,3 @@
   venue_url: https://p-acts.github.io/
   area: equivalences
   url: https://prezi.com/view/C6MxIUD0O8Ola41BCCwx/
-
