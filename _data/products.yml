@@ -976,10 +976,15 @@
   short_title: "Galois Energy Games"
   kind: paper
   authors: [Caroline Lemke, Benjamin Bisping]
-  url: https://arxiv.org/abs/2505.14691
+  url: https://doi.org/10.4230/LIPIcs.CONCUR.2025.29
+  report: https://arxiv.org/abs/2505.14691
   date: 2025-08
-  venue: arXiv
-  tags: [energy-games, wip]
+  venue: CONCUR 2025, LIPIcs 348
+  venue_url: https://conferences.au.dk/confest2025/concur
+  description: "Caroline and I generalize energy games to a Galois connection-based framework that can express many quantitative games, and show decidability of a large class of them."
+  links:
+    continues: [ma2024-cl]
+  tags: [energy-games, games, quantitative-games, galois-connections]
   tech: ["isabelle"]
   area: functional-programming
 
@@ -993,3 +998,15 @@
   venue_url: https://p-acts.github.io/
   area: equivalences
   url: https://prezi.com/view/C6MxIUD0O8Ola41BCCwx/
+
+
+- id: radical25-generalized-eq-checking-talk
+  title: "Generalized Equivalence Checking of Concurrent Programs"
+  short_title: "Generalized Equivalence Checking"
+  kind: talk
+  date: 2025-08-25
+  pos_date: 2025-09
+  venue: RADICAL, Aarhus
+  venue_url: https://sites.google.com/site/radicalconcur/Home/program
+  area: equivalences
+  url: https://prezi.com/view/Va2PzuvOKOwouMjAqkk0/
