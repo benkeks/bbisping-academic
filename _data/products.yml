@@ -978,7 +978,7 @@
   authors: [Caroline Lemke, Benjamin Bisping]
   url: https://doi.org/10.4230/LIPIcs.CONCUR.2025.29
   report: https://arxiv.org/abs/2505.14691
-  date: 2025-08
+  date: 2025-09
   venue: CONCUR 2025, LIPIcs 348
   venue_url: https://conferences.au.dk/confest2025/concur
   description: "Caroline and I generalize energy games to a Galois connection-based framework that can express many quantitative games, and show decidability of a large class of them."
@@ -993,13 +993,11 @@
   short_title: "Deciding All Behavioral Equivalences"
   kind: talk
   date: 2025-06-18
-  pos_date: 2025-06
+  pos_date: 2025-04
   venue: P-ACTS, Paris
   venue_url: https://p-acts.github.io/
   area: equivalences
   url: https://prezi.com/view/C6MxIUD0O8Ola41BCCwx/
-
-
 - id: radical25-generalized-eq-checking-talk
   title: "Generalized Equivalence Checking of Concurrent Programs"
   short_title: "Generalized Equivalence Checking"
@@ -1010,3 +1008,26 @@
   venue_url: https://sites.google.com/site/radicalconcur/Home/program
   area: equivalences
   url: https://prezi.com/view/Va2PzuvOKOwouMjAqkk0/
+
+- id: ba2025-fw
+  title: "User-Friendly Web Application for High-Performance Process Equivalence Checking"
+  authors: Finn Watermann
+  kind: advising
+  date: 2025-06
+  pos_date: 2025-06
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, David N. Jansen]
+  tags: [energy-games, equivalence-spectrum]
+  tech: ["javascript", "jupyter", "rust"]
+  area: weak-equivalences
+- id: ba2025-el
+  title: "Automating Legal Reasoning in Isabelle/HOL: An Embedding of Logics for Legal Dynamics"
+  authors: Eric Lifante
+  kind: advising
+  date: 2025-07
+  pos_date: 2025-08
+  venue: MTV TU Berlin
+  supervisors: [Uwe Nestmann, Christoph Benzmüller]
+  tags: ["modal-logics", "legal-reasoning"]
+  tech: ["isabelle"]
+  area: functional-programming
