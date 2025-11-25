@@ -979,12 +979,13 @@
   url: https://doi.org/10.4230/LIPIcs.CONCUR.2025.29
   report: https://arxiv.org/abs/2505.14691
   date: 2025-09
+  pos_date: 2025-10
   venue: CONCUR 2025, LIPIcs 348
   venue_url: https://conferences.au.dk/confest2025/concur
   description: "Caroline and I generalize energy games to a Galois connection-based framework that can express many quantitative games, and show decidability of a large class of them."
   links:
     continues: [ma2024-cl]
-  tags: [energy-games, games, quantitative-games, galois-connections]
+  tags: [energy-games, games, quantitative-games, galois-connections, highlight]
   tech: ["isabelle"]
   area: functional-programming
 
@@ -1044,3 +1045,15 @@
   links:
     accompanies: [expresssos24-energy-game-weak-spectrum-paper, diss2025-generalize-eq-checking]
   area: weak-equivalences
+
+- id: tut2025-paradoxes-itps
+  title: "Paradoxien einfach lösen mit interaktiven Theorembeweisern"
+  kind: talk
+  date: 2025-12-11
+  pos_date: 2025-12
+  venue: "Lehrerfortbildung in Informatik, Dagstuhl"
+  venue_url: https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/25503
+  url: https://www.dagstuhl.de/storage/media/0006/6831/25503-Lehrerfortbildung-Informatik-in-Dagstuhl.html#Bisping
+  area: functional-programming
+  tech: ["isabelle"]
+  tags: [interactive-theorem-proving, paradoxes, wip]
