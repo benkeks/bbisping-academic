@@ -198,7 +198,7 @@
   kind: course
   authors: [Benjamin Bisping, Uwe Nestmann]
   date: 2018-10
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2018wise
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -235,7 +235,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2019-04
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2019sose
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -254,7 +254,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2019-10
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2019wise
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -273,7 +273,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2020-04
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2020sose
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -357,7 +357,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2020-10
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2020wise
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -420,7 +420,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2021-04
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2021sose
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -528,7 +528,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2022-04
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2022sose
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -540,8 +540,8 @@
   venue: TU Berlin
   date: 2022-07
   pos_date: 2022-06
-  url: https://pr.mtv.tu-berlin.de
-  source: https://git.tu-berlin.de/modysy-forever/modysy-showcase
+  url: https://games.equiv.io
+  source: https://github.com/equivio/modysy-showcase
   tech: [jekyll]
   description: "I set up a showcase for the student projects of my practical course."
   area: software-engineering
@@ -677,7 +677,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2023-04
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2023sose
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
@@ -781,7 +781,7 @@
   title: "Models of Dynamic Systems"
   kind: course
   date: 2024-05
-  url: https://pr.mtv.tu-berlin.de/
+  url: https://games.equiv.io/2024sose
   venue: MTV TU Berlin
   tags: [game-programming]
   area: software-engineering
