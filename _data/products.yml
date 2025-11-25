@@ -1031,3 +1031,16 @@
   tags: ["modal-logics", "legal-reasoning"]
   tech: ["isabelle"]
   area: functional-programming
+
+- id: afp25-weak-spectroscopy
+  title: "The Weak Spectroscopy Game to Characterize Behavioral Equivalences"
+  kind: artifact
+  authors: ["Lisa Barthel", "Leonard Hübner", "Caroline Lemke", "Karl Mattes", "Lenard Mollenkopf", "Benjamin Bisping"]
+  url: https://www.isa-afp.org/entries/Weak_Spectroscopy.html
+  venue: "AFP 2025"
+  date: 2025-11
+  tech: [isabelle]
+  tags: [equivalence-spectrum, game-characterization]
+  links:
+    accompanies: [expresssos24-energy-game-weak-spectrum-paper, diss2025-generalize-eq-checking]
+  area: weak-equivalences
