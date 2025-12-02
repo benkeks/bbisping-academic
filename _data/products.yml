@@ -284,7 +284,7 @@
   authors: Dominik Peacock
   kind: advising
   date: 2020-05
-  url: https://www.concurrency-theory.org/rvg-game/
+  url: https://games.equiv.io/play/rvg-game/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Manfred Hauswirth]
   tags: [coupled-similarity]
@@ -368,7 +368,7 @@
   authors: Tobias Wittig
   kind: advising
   date: 2020-12
-  url: https://concurrency-theory.org/process-jungle/
+  url: https://games.equiv.io/play/process-jungle/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Kirstin Peters]
   tags: [encodings]
@@ -506,7 +506,7 @@
   authors: Mariusz Trzeciakiewicz
   kind: advising
   date: 2021-11
-  url: https://concurrency-theory.org/ltbt-game
+  url: https://games.equiv.io/play/ltbt-game
   source: https://github.com/Marii19/the-spectroscopy-invaders
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
