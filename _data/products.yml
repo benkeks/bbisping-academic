@@ -1053,7 +1053,7 @@
   pos_date: 2025-12
   venue: "Lehrerfortbildung in Informatik, Dagstuhl"
   venue_url: https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/25503
-  url: https://www.dagstuhl.de/storage/media/0006/6831/25503-Lehrerfortbildung-Informatik-in-Dagstuhl.html#Bisping
+  url: https://miro.com/app/board/uXjVGe73JBI=/?share_link_id=587830283151
   area: functional-programming
   tech: ["isabelle"]
-  tags: [interactive-theorem-proving, paradoxes, wip]
+  tags: [interactive-theorem-proving, paradoxes]
