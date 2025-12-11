@@ -1,0 +1,24 @@
+{% case include.kind %}
+  {% when "paper" %}
+  <i class="fas fa-scroll"></i>
+  {% when "article" %}
+  <i class="fas fa-book-open"></i>
+  {% when "thesis", "bachelor thesis", "master thesis" %}
+  <i class="fas fa-book"></i>
+  {% when "tool" %}
+  <i class="fas fa-tools"></i>
+  {% when "talk" %}
+  <i class="fas fa-volume-up"></i>
+  {% when "course" %}
+  <i class="fas fa-chalkboard-teacher"></i>
+  {% when "contribution", "contribution to work by" %}
+  <i class="fas fa-sign-in-alt"></i>
+  {% when "advising", "supervision" %}
+  <i class="fas fa-hand-point-right"></i>
+  {% when "artifact" %}
+  <i class="fas fa-archive"></i>
+  {% when "website" %}
+  <i class="fa-solid fa-table-columns"></i>
+  {% else %}
+  <i class="fas fa-vector-square"></i>
+{% endcase %}
