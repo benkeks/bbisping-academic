@@ -46,6 +46,11 @@ bluesky:
   icon  : fa-brands fa-bluesky
   color : 0085ff
 
+mastodon:
+  url   : https://mastodon.acm.org/@
+  icon  : fa-brands fa-mastodon
+  color : 1da1f2
+
 googlescholar:
   url   : https://scholar.google.com/
   icon  : fa-brands fa-google-scholar

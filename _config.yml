@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               : Benjamin Bisping
-description         : "Research in Semantics of Distributed Systems"
+description         : "Research in Semantics and Security of Distributed Systems"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 url                 : "https://bbisping.de"
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -23,12 +23,12 @@ author:
   email             : benjamin.bisping@telecom-sudparis.eu
   orcid             : 0000-0002-0637-0171
   googlescholar     : citations?user=D1Pt_VsAAAAJ
+  linkedin          : bbisping
+  mastodon          : bisping
   github            : benkeks
-  twitter           : benkeks
   bluesky           : benkeks.bsky.social
   homepage          : https://bbisping.de
   office            : Room 4A251 @ Télécom SudParis, Institut Polytechnique de Paris (19 place Marguerite Perey, 91120 Palaiseau, France)
-  linkedin          : bbisping
 
 ### Posts ###
 permalink: /blog/:title
