@@ -61,7 +61,12 @@ const areaInfos = d3.selectAll(".area-info")
   .datum(function() { return this.dataset; });
 
 const products = d3.selectAll("div.product")
-  .on("click", function (e, d) { navigateFocus(this.id); });
+  .on("click", function (e, d) { navigateFocus(this.id); })
+  .on("focus", function (e, d) { navigateFocus(this.id); });
+
+const innerElements = products.selectAll("*")
+  .on("focus", function (e, d) { navigateFocus(this.closest('.product').id); });
+
 // fetch data from dom
 products.datum(function() { return {
   date: new Date(this.dataset.date),
@@ -136,7 +141,8 @@ const path = svg.selectAll("path")
     .classed("area", true)
     .attr("id", (d,i) => "area-" + areas[i].id)
     .attr("fill", (d,i) => `url(#pattern-${areas[i].id})`)
-    .on("click", (e,d) => navigateFocus("area-" + d.key));
+    .on("click", (e,d) => navigateFocus("area-" + d.key))
+    .on("focus", (e,d) => navigateFocus("area-" + d.key));
 
 const yearMarks = d3.selectAll(".year-mark")
   .datum(function() { return {year: parseInt(this.dataset.year)}; });
