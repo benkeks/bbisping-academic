@@ -1,0 +1,20 @@
+{% assign products_list = include.products %}
+{% assign section_title = include.title %}
+
+{% if products_list.size > 0 %}
+
+<section>
+
+<h2 class="product-list" id="{{ include.kind | slugify }}s">
+  {% include elements/product-icon.html kind=include.kind %}
+  {{ section_title }}
+</h2>
+
+{% assign num_in_group = 0 %}
+{% for p in products_list %}
+  {% include elements/product-table-item.html product=p num=num_in_group %}
+  {% assign num_in_group = num_in_group | plus: 1 %}
+{% endfor %}
+{% endif %}
+
+</section>

@@ -1,0 +1,46 @@
+{% assign product = include.product %}
+{% assign my_num_in_group = include.num | default: 0 %}
+
+<div
+    id="product-{{ product.id }}"
+    class="product product-reference product-{{product.kind | slugify}} {% for t in product.tags %} tagged-{{t}}{% endfor %}"
+    data-date="{{ product.pos_date | default: product.date }}"
+    data-year="{{product.date | truncate: 4, ''}}"
+    data-area="{{product.area}}"
+    data-num="{{my_num_in_group}}">
+
+<div class="product-coords">
+    <span class="product-date">{{ product.date | date: "%Y-%m" }}</span> 
+    {% if product.venue_url %}
+    <span class="product-venue"><a href="{{product.venue_url}}">{{product.venue}}</a></span>
+    {% else %}
+    <span class="product-venue">{{product.venue}}</span>
+    {% endif %}
+</div>
+<div class="product-head">
+    {% if product.url %}
+    <span class="product-title"><a href="{{product.url}}">{{product.title}}</a></span>
+    {% else %}
+    <span class="product-title">{{product.title}}</span>
+    {% endif %}
+</div>
+<div class="product-persons">
+    {% if product.authors %}
+    <span class="product-authors">{{ product.authors | join: ",&#32;" | replace: " ", "&nbsp;" }}</span>
+    {% endif %}
+    {% if product.supervisors %}
+    <span class="product-supervisors">Supervisor{% if product.supervisors.size != 1 %}s{% endif %}: {{ product.supervisors | join: ",&#32;" | replace: " ", "&nbsp;"}}</span>
+    {% endif %}
+</div>
+<div class="product-resources">
+    {% if product.report %}
+    <a href="{{product.report}}" title="Report" class="product-report"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+    {% endif %}
+    {% if product.source %}
+    <a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
+    {% endif %}
+    {% if product.poster %}
+    <a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
+    {% endif %}
+</div>
+</div>
