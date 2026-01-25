@@ -262,14 +262,18 @@ h1, h2, h3, h4, p {
   display: inline-block;
 }
 
-.product-list .product-date, .product-list .product-resources {
-  width: 10rem;
+.product-list .product-date {
+  position: absolute;
+  width: 7rem;
 }
 .product-list .product-supervisors {
   color: gray;
 }
 .product-list .product-title {
   font-weight: 600;
+}
+.product-list .product-title, .product-list .product-persons, .product-list .product-venue, .product-list .product-resources {
+  padding-left: 8rem;
 }
 .product-list .product {
   margin-bottom: 1.5rem;

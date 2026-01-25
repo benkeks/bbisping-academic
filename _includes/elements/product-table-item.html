@@ -10,11 +10,13 @@
     data-num="{{my_num_in_group}}">
 
 <div class="product-coords">
-    <span class="product-date">{{ product.date | date: "%Y-%m" }}</span> 
-    {% if product.venue_url %}
-    <span class="product-venue"><a href="{{product.venue_url}}">{{product.venue}}</a></span>
-    {% else %}
-    <span class="product-venue">{{product.venue}}</span>
+    <div class="product-date">{{ product.date | date: "%Y-%m" }}</div> 
+    {% if include.hide_venue != true %}
+        {% if product.venue_url %}
+        <div class="product-venue"><a href="{{product.venue_url}}">{{product.venue}}</a></div>
+        {% else %}
+        <div class="product-venue">{{product.venue}}</div>
+        {% endif %}
     {% endif %}
 </div>
 <div class="product-head">
@@ -25,7 +27,15 @@
     {% endif %}
 </div>
 <div class="product-info">
-    <span class="product-resources">
+    <div class="product-persons">
+        {% if product.authors %}
+        <span class="product-authors">{{ product.authors | join: ",&#32;" | replace: " ", "&nbsp;" }}</span>
+        {% endif %}
+        {% if product.supervisors %}
+        <span class="product-supervisors">(Supervisor{% if product.supervisors.size != 1 %}s{% endif %}: {{ product.supervisors | join: ",&#32;" | replace: " ", "&nbsp;"}})</span>
+        {% endif %}
+    </div>
+    <div class="product-resources">
         {% if product.report %}
         <a href="{{product.report}}" title="Report" class="product-report"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
         {% endif %}
@@ -35,14 +45,6 @@
         {% if product.poster %}
         <a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
         {% endif %}
-    </span>
-    <span class="product-persons">
-        {% if product.authors %}
-        <span class="product-authors">{{ product.authors | join: ",&#32;" | replace: " ", "&nbsp;" }}</span>
-        {% endif %}
-        {% if product.supervisors %}
-        <span class="product-supervisors">(Supervisor{% if product.supervisors.size != 1 %}s{% endif %}: {{ product.supervisors | join: ",&#32;" | replace: " ", "&nbsp;"}})</span>
-        {% endif %}
-    </span>
+    </div>
 </div>
 </div>

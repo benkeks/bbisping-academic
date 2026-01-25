@@ -12,7 +12,7 @@
 
 {% assign num_in_group = 0 %}
 {% for p in products_list %}
-  {% include elements/product-table-item.html product=p num=num_in_group %}
+  {% include elements/product-table-item.html product=p num=num_in_group hide_venue=include.hide_venue%}
   {% assign num_in_group = num_in_group | plus: 1 %}
 {% endfor %}
 {% endif %}

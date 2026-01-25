@@ -114,7 +114,7 @@
   tech: [scala, cfa]
 - id: afp16-flp
   title: A Constructive Proof for FLP
-  kind: artifact
+  kind: formalization
   authors: ["Benjamin Bisping", "Paul-David Brodmann", "Tim Jungnickel", "Christina Rickmann", "Henning Seidler", "Anke Stüber", "Arno Wilhelm-Weidner", "Kirstin Peters", "Uwe Nestmann"] 
   url: https://www.isa-afp.org/entries/FLP.html
   venue: "AFP 2016"
@@ -737,7 +737,7 @@
 
 - id: afp23-coupled-contra
   title: Coupled Similarity and Contrasimilarity, and How to Compute Them
-  kind: artifact
+  kind: formalization
   authors: ["Benjamin Bisping", "Luisa Montanari"]
   url: https://www.isa-afp.org/entries/Coupledsim_Contrasim.html
   venue: "AFP 2023"
@@ -1035,7 +1035,7 @@
 
 - id: afp25-weak-spectroscopy
   title: "The Weak Spectroscopy Game to Characterize Behavioral Equivalences"
-  kind: artifact
+  kind: formalization
   authors: ["Lisa Barthel", "Leonard Hübner", "Caroline Lemke", "Karl Mattes", "Lenard Mollenkopf", "Benjamin Bisping"]
   url: https://www.isa-afp.org/entries/Weak_Spectroscopy.html
   venue: "AFP 2025"
