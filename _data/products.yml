@@ -684,19 +684,6 @@
   links:
     continues: [sose22-modysy]
 
-- id: arxiv23-silent-step-spectrum
-  title: "Linear-Time–Branching-Time Spectroscopy Accounting for Silent Steps"
-  kind: paper
-  authors: [Benjamin Bisping, David N. Jansen]
-  url: https://doi.org/10.48550/arXiv.2305.17671
-  date: 2023-05
-  venue: arXiv
-  tags: [branching-bisimilarity, contrasimilarity, equivalence-spectrum, game-characterization, energy-games]
-  area: weak-equivalences
-  description: "David and I discuss how to transfer the approach of [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs) to the weak spectrum (with silent steps)."
-  links:
-    continues: [cav23-process-eq-energygames, expresssos21-contrasim-game]
-
 - id: cav23-process-eq-energygames-talk
   title: Process Equivalence Problems as Energy Games
   kind: talk
@@ -884,8 +871,13 @@
   date: 2024-11
   venue: EPTCS 412 of EXPRESS/SOS 2024
   venue_url: https://cgi.cse.unsw.edu.au/~eptcs/content.cgi?EXPRESSSOS2024
+  report: https://doi.org/10.48550/arXiv.2305.17671
   tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games, highlight]
   area: weak-equivalences
+  description: "David and I discuss how to transfer the approach of [Deciding all equivalencs at once](#product-lmcs22-deciding-all-eqs) to the weak spectrum (with silent steps)."
+  links:
+    continues: [cav23-process-eq-energygames, expresssos21-contrasim-game]
+
 - id: iscas24-eq-games-talk
   title: Equivalence Problems as Games
   kind: talk
