@@ -5,6 +5,17 @@ permalink: /cv
 weight: 2
 ---
 
+<div id="header" style="min-height: 8rem">
+  <div style="position: absolute">
+    <img src="{{ site.author.image }}" style="width: 6rem" alt="{{ site.title }}" class="circle-image">
+  </div>
+  <div class="header-right" style="margin-left: 7rem">
+    <a href="{{ site.baseurl }}/"><h1 class="mb-0 mt-0"><b>{{ site.title }}</b></h1></a>
+    <p class="text-muted mb-0 mt-1">{{ site.description }}</p>
+    <p class="text-muted mb-0 mt-0"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+  </div>
+</div>
+
 {% assign products = site.data.products | sort: "date" | reverse %}
 
 {% assign article_kinds = "article|formalization" | split: "|" %}

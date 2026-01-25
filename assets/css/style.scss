@@ -37,6 +37,7 @@ main.container {
   display: flex;
   flex-wrap: wrap;
 }
+
 #product-canvas {
   overflow: hidden;
 }
@@ -256,6 +257,7 @@ h1, h2, h3, h4, p {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  margin-top: 1rem;
 }
 
 .product-list span {
@@ -264,7 +266,7 @@ h1, h2, h3, h4, p {
 
 .product-list .product-date {
   position: absolute;
-  width: 7rem;
+  width: 6rem;
 }
 .product-list .product-supervisors {
   color: gray;
@@ -273,8 +275,8 @@ h1, h2, h3, h4, p {
   font-weight: 600;
 }
 .product-list .product-title, .product-list .product-persons, .product-list .product-venue, .product-list .product-resources {
-  padding-left: 8rem;
+  padding-left: 7rem;
 }
 .product-list .product {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }

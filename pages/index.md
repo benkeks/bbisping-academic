@@ -47,6 +47,9 @@ weight: 1
 <button type="button" id="show-times" class="btn btn-light">Show student times</button>
 </div>
 
+<div style="text-align: center;">
+  <a href="/cv" title="If you look for a printable (boring) version of my curriculum vitae">Tabular CV</a>
+</div>
 
 <script type="module">
 
