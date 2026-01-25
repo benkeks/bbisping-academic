@@ -24,23 +24,25 @@
     <span class="product-title">{{product.title}}</span>
     {% endif %}
 </div>
-<div class="product-persons">
-    {% if product.authors %}
-    <span class="product-authors">{{ product.authors | join: ",&#32;" | replace: " ", "&nbsp;" }}</span>
-    {% endif %}
-    {% if product.supervisors %}
-    <span class="product-supervisors">Supervisor{% if product.supervisors.size != 1 %}s{% endif %}: {{ product.supervisors | join: ",&#32;" | replace: " ", "&nbsp;"}}</span>
-    {% endif %}
-</div>
-<div class="product-resources">
-    {% if product.report %}
-    <a href="{{product.report}}" title="Report" class="product-report"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
-    {% endif %}
-    {% if product.source %}
-    <a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
-    {% endif %}
-    {% if product.poster %}
-    <a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
-    {% endif %}
+<div class="product-info">
+    <span class="product-resources">
+        {% if product.report %}
+        <a href="{{product.report}}" title="Report" class="product-report"><i class="fa-regular fa-magnifying-glass-plus"></i></a>
+        {% endif %}
+        {% if product.source %}
+        <a href="{{product.source}}" title="Source" class="product-source"><i class="fab fa-github"></i></a>
+        {% endif %}
+        {% if product.poster %}
+        <a href="{{product.poster}}" title="Poster" class="product-poster"><i class="far fa-image"></i></a>
+        {% endif %}
+    </span>
+    <span class="product-persons">
+        {% if product.authors %}
+        <span class="product-authors">{{ product.authors | join: ",&#32;" | replace: " ", "&nbsp;" }}</span>
+        {% endif %}
+        {% if product.supervisors %}
+        <span class="product-supervisors">(Supervisor{% if product.supervisors.size != 1 %}s{% endif %}: {{ product.supervisors | join: ",&#32;" | replace: " ", "&nbsp;"}})</span>
+        {% endif %}
+    </span>
 </div>
 </div>

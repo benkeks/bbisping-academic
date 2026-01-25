@@ -3,9 +3,9 @@
 
 {% if products_list.size > 0 %}
 
-<section>
+<section class="product-list" id="{{ include.kind | slugify }}s">
 
-<h2 class="product-list" id="{{ include.kind | slugify }}s">
+<h2>
   {% include elements/product-icon.html kind=include.kind %}
   {{ section_title }}
 </h2>

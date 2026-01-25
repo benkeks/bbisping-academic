@@ -257,3 +257,20 @@ h1, h2, h3, h4, p {
   -ms-hyphens: auto;
   hyphens: auto;
 }
+
+.product-list span {
+  display: inline-block;
+}
+
+.product-list .product-date, .product-list .product-resources {
+  width: 10rem;
+}
+.product-list .product-supervisors {
+  color: gray;
+}
+.product-list .product-title {
+  font-weight: 600;
+}
+.product-list .product {
+  margin-bottom: 1.5rem;
+}
