@@ -963,7 +963,7 @@
   links:
     accompanies: [sose24-modysy]
 
-- id: wip25-galois-energy-games
+- id: concur25-galois-energy-games
   title: "Galois Energy Games: To Solve All Kinds of Quantitative Reachability Problems"
   short_title: "Galois Energy Games"
   kind: paper
@@ -1049,3 +1049,41 @@
   area: functional-programming
   tech: ["isabelle"]
   tags: [interactive-theorem-proving, paradoxes]
+
+- id: spring26-cassiopee-energy-games
+  title: "Cassiopée project #104: Presenting game-theoretic energy games as a computer game"
+  short_title: "Energy games as a computer game"
+  kind: course
+  date: 2026-01
+  venue: Télécom SudParis
+  venue_url: https://www.telecom-sudparis.eu/ecole/les-projets-cassiopee/
+  tech: ["phaser", "typescript"]
+  tags: [energy-games, game-programming]
+  area: software-engineering
+- id: gh26-anylzing-icore
+  title: "CORE Rankings Collection and Visualization"
+  kind: misc
+  date: 2026-02
+  area: software-engineering
+  venue: GitHub
+  tech: ["python"]
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7426751666651148290/
+  source: https://github.com/benkeks/icore-ranks
+- id: dcon26-comparing-security-proverif
+  title: "Comparing the security of secure systems via ProVerif"
+  kind: talk
+  date: 2026-03-26
+  pos_date: 2026-03
+  venue: D-CON 2026, Berlin
+  venue_url: https://www.tu.berlin/en/mtv/research/events/d-con-2026
+  area: distributed-algorithms
+- id: cmcs26-concurrency-games
+  title: "Invited tutorial: The Hennessy–Milner theorem as a shadow of game determinacy"
+  short_title: "The Hennessy–Milner theorem as a shadow of game determinacy"
+  kind: talk
+  date: 2026-04-11
+  pos_date: 2026-04
+  venue: CMCS 2026, Turin
+  venue_url: https://www.coalg.org/cmcs26/
+  area: equivalences
+  tags: [modal-logics, game-characterization]
