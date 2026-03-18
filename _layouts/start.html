@@ -9,7 +9,9 @@ layout: default
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image">
+        <a href="{{ site.baseurl }}/" class="author-image-link" aria-label="Open {{ site.title }} homepage">
+          <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image author-image">
+        </a>
       </div>
     </div>
     <a href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>

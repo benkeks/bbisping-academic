@@ -31,6 +31,31 @@ main.container {
   overflow: hidden;
 }
 
+.author-image-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.author-image-link:focus,
+.author-image-link:focus-visible {
+  outline: none;
+}
+
+.author-image {
+  transition: transform .35s ease, filter .35s ease;
+  transform-origin: center center;
+}
+
+.author-image-link:hover .author-image,
+.author-image-link:focus-visible .author-image {
+  transform: scale(1.12) rotate(-4deg);
+  filter: saturate(1.05);
+}
+
 .year-mark {
   position: absolute;
   font-size: 2rem;
@@ -207,6 +232,10 @@ main.container {
   cursor: help;
   transition: opacity .5s;
   stroke: white;
+}
+#product-canvas path.area:focus,
+#product-canvas path.area:focus-visible {
+  outline: none;
 }
 #product-canvas .pattern-watermark {
   opacity: .3;
