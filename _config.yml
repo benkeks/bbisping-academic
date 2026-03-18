@@ -9,6 +9,9 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 plugins:
   - jekyll-remote-theme
 
+sass:
+  quiet_deps: true
+
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
