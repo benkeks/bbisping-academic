@@ -1,0 +1,45 @@
+{% assign positions_list = include.positions %}
+{% assign section_title = include.title %}
+
+{% if positions_list.size > 0 %}
+
+<section class="career-list" id="career-entries">
+
+<h2>
+  <i class="fa-solid fa-user-tie"></i>
+  {{ section_title }}
+</h2>
+
+{% for position in positions_list %}
+<div class="career-entry" id="position-{{ position.id }}">
+  <div class="career-date">
+    {{ position.start | date: "%Y-%m" }} – {% if position.end %}{{ position.end | date: "%Y-%m" }}{% else %}present{% endif %}
+  </div>
+  <div class="career-body">
+    <div class="career-head">
+      {% if position.url %}
+      <span class="career-title"><a href="{{ position.url }}">{{ position.title }}</a></span>
+      {% else %}
+      <span class="career-title">{{ position.title }}</span>
+      {% endif %}
+      {% if position.organization %}
+        {% if position.organization_url %}
+        <span class="career-organization">@ <a href="{{ position.organization_url }}">{{ position.organization }}</a></span>
+        {% else %}
+        <span class="career-organization">@ {{ position.organization }}</span>
+        {% endif %}
+      {% endif %}
+    </div>
+    <div class="career-meta">
+      {% if position.kind %}<span class="career-kind">{{ position.kind }}</span>{% endif %}
+      {% if position.location %}<span class="career-location">{{ position.location }}</span>{% endif %}
+    </div>
+    {% if position.description %}
+    <div class="career-description">{{ position.description | markdownify }}</div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+
+</section>
+{% endif %}

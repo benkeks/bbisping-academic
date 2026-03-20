@@ -1,0 +1,33 @@
+# Positions, roles, and research stays shown in the tabular CV and on the left side
+# of the homepage timeline.
+#
+# Supported fields:
+# - id: unique slug
+# - title: role title shown in cards and tables
+# - short_title: short label used on the homepage timeline
+# - kind: e.g. position, role, research stay
+# - start: YYYY-MM
+# - end: YYYY-MM (optional; omit for ongoing roles)
+# - organization: institution or project name
+# - organization_url: optional link for the organization
+# - location: optional location string
+# - url: optional link with more information
+# - description: optional Markdown description
+- id: postdoc25orange
+  title: "Postdoc in cyber security"
+  short_title: "Postdoc @ IP Paris"
+  kind: position
+  start: 2025-10
+  organization: Télécom SudParis, Institut Polytechnique de Paris
+  organization_url: https://www.telecom-sudparis.eu/
+  location: Palaiseau, France
+- id: research18mtv
+  title: "Research assistant in concurrency theory"
+  short_title: "Research Assistant @ TU Berlin"
+  kind: position
+  start: 2018-10
+  end: 2025-09
+  organization: MTV Technische Universität Berlin
+  organization_url: https://tu.berlin/mtv
+  location: Berlin, Germany
+  description: "Conducting research on the semantics and security of distributed systems."
