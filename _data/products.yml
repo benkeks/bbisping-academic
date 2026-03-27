@@ -1072,17 +1072,30 @@
 - id: dcon26-comparing-security-proverif
   title: "Comparing the security of secure systems via ProVerif"
   kind: talk
+  url: https://miro.com/app/live-embed/uXjVGuNPjTM=/?embedMode=view_only_without_ui&moveToViewport=-3527,-2023,9132,4111&embedId=14837616627
   date: 2026-03-26
   pos_date: 2026-03
   venue: D-CON 2026, Berlin
   venue_url: https://www.tu.berlin/en/mtv/research/events/d-con-2026
   area: distributed-algorithms
+- id: mics26-energy-games
+  title: "Energy games—and how everything is a shortest-path problem"
+  kind: talk
+  date: 2026-04-02
+  pos_date: 2026-04
+  venue: MICS Seminar, Centrale Supélec
+  venue_url: https://openagenda.com/de/mics-agenda/events/mics-seminar-benjamin-bisping?cl=null
+  links:
+    continues: [concur25-galois-energy-games]
+  tags: [energy-games, games, quantitative-games, galois-connections, highlight]
+  tech: ["isabelle"]
+  area: functional-programming
 - id: cmcs26-concurrency-games
   title: "Invited tutorial: The Hennessy–Milner theorem as a shadow of game determinacy"
   short_title: "The Hennessy–Milner theorem as a shadow of game determinacy"
   kind: talk
   date: 2026-04-11
-  pos_date: 2026-04
+  pos_date: 2026-05
   venue: CMCS 2026, Turin
   venue_url: https://www.coalg.org/cmcs26/
   area: equivalences
