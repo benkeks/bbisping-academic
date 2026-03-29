@@ -100,6 +100,7 @@
   kind: bachelor thesis
   description: "For my bachelor's thesis, I devised a static analysis of the call graph for ModLang, a language with first-class modules."
   supervisors: [Peter Pepper, Stefan Jähnichen]
+  tags: [bachelor]
   date: 2014-04
   venue: TU Berlin
   area: functional-programming
@@ -180,7 +181,7 @@
   url: https://coupledsim.bbisping.de/bisping_computingCoupledSimilarity_thesis.pdf
   venue: TU Berlin
   supervisors: [Uwe Nestmann, Holger Hermanns]
-  tags: [coupled similarity, game characterization]
+  tags: [coupled similarity, game characterization, master]
   tech: [reachability games, bisimulation reduction, coinduction, isabelle, scala]
   date: 2018-04
   area: weak-equivalences
@@ -287,7 +288,7 @@
   url: https://games.equiv.io/play/rvg-game/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Manfred Hauswirth]
-  tags: [coupled-similarity]
+  tags: [coupled-similarity, bachelor]
   tech: [unity, csharp]
   area: weak-equivalences
 - id: ba2020-nl
@@ -300,7 +301,7 @@
   url: https://github.com/mCRL2org/mCRL2/pull/1619
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [coupled-similarity]
+  tags: [coupled-similarity, bachelor]
   tech: ["cpp", "mcrl2"]
   area: weak-equivalences
 - id: tool20-spectroscope
@@ -320,6 +321,7 @@
   date: 2020-09
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Manfred Hauswirth]
+  tags: [bachelor]
   tech: ["unity", "csharp"]
   area: equivalences
 - id: sose20-isalab
@@ -350,7 +352,7 @@
   url: https://counterfactuals.org/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [counterfactuals]
+  tags: [counterfactuals, bachelor]
   tech: ["typsescript", "angular"]
   area: causality
 - id: wise20-modysy
@@ -371,7 +373,7 @@
   url: https://games.equiv.io/play/process-jungle/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Kirstin Peters]
-  tags: [encodings]
+  tags: [encodings, bachelor]
   tech: ["javascript"]
   area: equivalences
 - id: tacas21-spectroscopy-artifact
@@ -393,7 +395,7 @@
   url: https://gitlab.com/MrGreenTea/stille-post
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Florian Kammüller]
-  tags: ["static-analysis"]
+  tags: ["static-analysis", bachelor]
   tech: ["elixir", "cfa"]
   area: functional-programming
 - id: tacas21-spectroscopy-game
@@ -435,7 +437,7 @@
   source: https://github.com/luisamontanari/ContrasimGame
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [contrasimilarity]
+  tags: [contrasimilarity, bachelor]
   tech: ["isabelle"]
   area: weak-equivalences
 - id: ba2021-mp
@@ -447,7 +449,7 @@
   source: https://github.com/maxpohlmann/Reducing-Reactive-to-Strong-Bisimilarity
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [reactive bisimilarity]
+  tags: [reactive bisimilarity, bachelor]
   tech: ["isabelle"]
   area: timed-systems
 - id: web2021-concurrencytheoryorg
@@ -510,7 +512,7 @@
   source: https://github.com/Marii19/the-spectroscopy-invaders
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [equivalence-spectrum, computer-game]
+  tags: [equivalence-spectrum, computer-game, bachelor]
   tech: ["phaser", "typescript"]
   area: equivalences
 - id: ba2021-je
@@ -521,7 +523,7 @@
   source: https://github.com/johannaengland/hml-synthesis-distinguished-processes
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [synthesis, hml]
+  tags: [synthesis, hml, bachelor]
   tech: ["python", "jupyter"]
   area: equivalences
 - id: sose22-modysy
@@ -558,7 +560,7 @@
   source: https://github.com/iammmai/spectroscopy-ui
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [equivalence-spectrum]
+  tags: [equivalence-spectrum, bachelor]
   tech: ["react", "typescript"]
   area: equivalences
 
@@ -594,7 +596,7 @@
   source: https://github.com/Mieneas/Automatisierte-Reduktion-von-reaktiver-zu-starker-Bisimilaritaet
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [reactive bisimilarity]
+  tags: [reactive bisimilarity, bachelor]
   tech: ["java", "mcrl2"]
   area: timed-systems
 - id: ba2022-ra
@@ -605,7 +607,7 @@
   url: https://ba.royadler.de/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stefan Schmid]
-  tags: [consensus]
+  tags: [consensus, bachelor]
   tech: ["hash", "js"]
   area: distributed-algorithms
 - id: ba2022-es
@@ -617,7 +619,7 @@
   source: https://github.com/eloinoel/ReactiveBisimilarityGame
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [reactive bisimilarity]
+  tags: [reactive bisimilarity, bachelor]
   tech: ["typescript", "phaser"]
   area: timed-systems
 - id: markdown-basic
@@ -641,7 +643,7 @@
   source: https://github.com/Brunololos/counterfactuals-demo
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [counterfactuals]
+  tags: [counterfactuals, bachelor]
   tech: ["typescript", "phaser"]
   area: causality
 
@@ -745,7 +747,7 @@
   source: https://github.com/Fabian-O01/CAAL
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [equivalence-spectrum, game-characterization, energy-games]
+  tags: [equivalence-spectrum, game-characterization, energy-games, bachelor]
   links:
     accompanies: [cav23-process-eq-energygames]
   tech: ["typescript"]
@@ -760,7 +762,7 @@
   source: https://github.com/johanneshauschild/NonlinearCounterfactuals
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Bernd Finkbeiner]
-  tags: [counterfactuals, temporal-logics]
+  tags: [counterfactuals, temporal-logics, bachelor]
   tech: ["isabelle"]
   area: causality
 
@@ -807,7 +809,7 @@
   source: https://github.com/ekeln/BA_formula_prices/
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [hml, equivalence-spectrum]
+  tags: [hml, equivalence-spectrum, bachelor]
   tech: ["isabelle"]
   area: equivalences
 - id: ba2024-gv
@@ -820,7 +822,7 @@
   source: https://github.com/Gobbel2000/gpuequiv
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [energy-games, equivalence-spectrum]
+  tags: [energy-games, equivalence-spectrum, bachelor]
   tech: ["webgpu", "rust"]
   area: equivalences
 - id: ba2024-vs
@@ -831,7 +833,7 @@
   date: 2024-08
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Martin Lange]
-  tags: [equivalence-spectrum, modal-logics]
+  tags: [equivalence-spectrum, modal-logics, bachelor]
   tech: ["scala"]
   area: equivalences
 
@@ -899,7 +901,7 @@
   pos_date: 2024-12
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Stephan Kreutzer]
-  tags: [contra-similarity]
+  tags: [contra-similarity, bachelor]
   tech: ["cpp", "mcrl2"]
   area: weak-equivalences
 - id: ma2024-cl
@@ -913,7 +915,7 @@
   supervisors: [Uwe Nestmann, Uli Fahrenberg]
   url: https://github.com/crmrtz/galois-energy-games/blob/main/masters_thesis.pdf
   source: https://github.com/crmrtz/galois-energy-games/
-  tags: [games, energy-games]
+  tags: [games, energy-games, master]
   tech: ["isabelle"]
   area: functional-programming
 
@@ -1010,7 +1012,7 @@
   pos_date: 2025-06
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, David N. Jansen]
-  tags: [energy-games, equivalence-spectrum]
+  tags: [energy-games, equivalence-spectrum, bachelor]
   tech: ["javascript", "jupyter", "rust"]
   area: weak-equivalences
 - id: ba2025-el
@@ -1021,7 +1023,7 @@
   pos_date: 2025-08
   venue: MTV TU Berlin
   supervisors: [Uwe Nestmann, Christoph Benzmüller]
-  tags: ["modal-logics", "legal-reasoning"]
+  tags: ["modal-logics", "legal-reasoning", bachelor]
   tech: ["isabelle"]
   area: functional-programming
 
@@ -1087,7 +1089,7 @@
   venue_url: https://openagenda.com/de/mics-agenda/events/mics-seminar-benjamin-bisping?cl=null
   links:
     continues: [concur25-galois-energy-games]
-  tags: [energy-games, games, quantitative-games, galois-connections, highlight]
+  tags: [energy-games, games, quantitative-games, galois-connections]
   tech: ["isabelle"]
   area: functional-programming
 - id: cmcs26-concurrency-games
@@ -1099,4 +1101,4 @@
   venue: CMCS 2026, Turin
   venue_url: https://www.coalg.org/cmcs26/
   area: equivalences
-  tags: [modal-logics, game-characterization]
+  tags: [modal-logics, game-characterization, highlight, hennessy-milner-theorem]

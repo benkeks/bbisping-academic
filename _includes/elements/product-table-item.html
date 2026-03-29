@@ -1,5 +1,6 @@
 {% assign product = include.product %}
 {% assign my_num_in_group = include.num | default: 0 %}
+{% assign product_kind = product.kind | downcase %}
 
 <div
     id="product-{{ product.id }}"
@@ -24,6 +25,13 @@
     <span class="product-title"><a href="{{product.url}}">{{product.title}}</a></span>
     {% else %}
     <span class="product-title">{{product.title}}</span>
+    {% endif %}
+    {% if product_kind == "advising" %}
+        {% if product.tags contains "bachelor" %}
+        <span class="product-kind">(Bachelor thesis)</span>
+        {% elsif product.tags contains "master" %}
+        <span class="product-kind">(Master thesis)</span>
+        {% endif %}
     {% endif %}
 </div>
 <div class="product-info">

@@ -40,4 +40,4 @@ weight: 2
 
 {% include elements/product-table.html title="Courses taught" kind="course" products=course_products hide_venue=true %}
 
-{% include elements/product-table.html title="Theses supervised" kind="advising" products=thesis_products hide_venue=true %}
+{% include elements/product-table.html title="Theses advised" kind="advising" products=thesis_products hide_venue=true %}
