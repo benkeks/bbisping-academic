@@ -1098,7 +1098,8 @@
   kind: talk
   date: 2026-04-11
   pos_date: 2026-05
-  venue: CMCS 2026, Turin
+  venue: CMCS @ ETAPS 2026, Turin
   venue_url: https://www.coalg.org/cmcs26/
   area: equivalences
-  tags: [modal-logics, game-characterization, highlight, hennessy-milner-theorem]
+  url: https://miro.com/app/live-embed/uXjVGkZXs6o=/?embedMode=view_only_without_ui&moveToViewport=-5191%2C-5809%2C1359%2C1359&embedId=293563171657
+  tags: [modal-logics, game-characterization, highlight, hennessy-milner-theorem, invited, tutorial]
