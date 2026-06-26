@@ -1059,6 +1059,9 @@
   date: 2026-01
   venue: Télécom SudParis
   venue_url: https://www.telecom-sudparis.eu/ecole/les-projets-cassiopee/
+  url: https://games.equiv.io/2026spring-little-steps-home
+  source: https://github.com/equivio/little-steps/
+  poster: https://www.linkedin.com/posts/bbisping_can-you-solve-the-energy-game-to-guide-your-activity-7476198634812956672-t4ri?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxlugwB88j9FRHQ-bhgu7LZy8pL1t_aPOI
   tech: ["phaser", "typescript"]
   tags: [energy-games, game-programming]
   area: software-engineering
