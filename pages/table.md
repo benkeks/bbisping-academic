@@ -22,13 +22,13 @@ weight: 2
 {% assign journal_products = products | where_exp: "p", "article_kinds contains p.kind"%}
 {% assign conference_products = products | where: "kind", "paper" %}
 {% assign talk_products = products | where: "kind", "talk" %}
-{% assign software_kinds = "tool|website" | split: "|" %}
+{% assign software_kinds = "tool|website|game" | split: "|" %}
 {% assign software_products = products | where_exp: "p", "software_kinds contains p.kind" %}
 {% assign course_products = products | where: "kind", "course" %}
 {% assign thesis_products = products | where: "kind", "advising" %}
 {% assign positions = site.data.positions | sort: "start" | reverse %}
 
-{% include elements/position-table.html title="Positions, roles, and research stays" positions=positions %}
+{% include elements/position-table.html title="Positions" positions=positions %}
 
 {% include elements/product-table.html title="Journal articles and formalizations" kind="article" products=journal_products %}
 

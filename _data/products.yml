@@ -575,6 +575,21 @@
   venue_url: https://lmcs.episciences.org/volume/view/id/657
   tags: [equivalence-spectrum, game-characterization, highlight]
   area: equivalences
+
+- id: pfygj2022-clave
+  title: "Clave: Trap the Monsters!"
+  authors: [benkeks, Ace Luke, Sahara B.]
+  kind: game
+  date: 2022-11
+  pos_date: 2022-08
+  url: https://benkeks.itch.io/clave
+  venue: Portland Finish Your Game Jam 2022
+  venue_url: https://itch.io/jam/finishyourgamejam2022/rate/320278
+  report: https://benkeks.itch.io/clave/devlog/457277/first-beta-sound-music-friends
+  source: https://github.com/benkeks/clave
+  tags: [game, puzzle, highlight]
+  tech: [threejs, scala]
+  area: software-engineering
   
 - id: wise22-horror
   title: "The Software Horror Picture Show"
@@ -788,6 +803,17 @@
   links:
     continues: [wise23-raw]
 
+- id: ffs2024-yeti-tournament
+  title: "YetiTournament"
+  authors: [Benjamin Bisping, Tiare Feuchtner, Andreas Büscher, Hannes Rammer]
+  kind: game
+  date: 2024-01
+  url: https://benkeks.itch.io/yetitournament
+  venue: Finally Finish Something 2024
+  venue_url: https://itch.io/jam/finally-finish-something-2024/rate/744348
+  tags: [game, multiplayer]
+  tech: [unity, csharp]
+  area: software-engineering
 - id: dcon24-concurrency-games
   title: "Concurrency Formalisms as Computer Games"
   short_title: "Concurrency Formalisms as Games"
@@ -1120,3 +1146,16 @@
   tags: [energy-games, games, quantitative-games, equivalence-spectrum, game-characterization]
   area: equivalences
   url: https://www.linkedin.com/posts/form-centre_this-week-we-had-the-pleasure-of-hosting-activity-7458772802804985856-cWCU/
+
+- id: itch2026-tempus-fugit
+  title: "Tempus fugit: A game about Linear Temporal Logic"
+  authors: [Benjamin Bisping, Tobias Loch, Mustafa Mohsen, Florian Eyert, Kejni Dema, Maximilian Lukas Stamm, Alessio Nicolo Perna, Malek El-Tannir]
+  kind: game
+  date: 2026-07
+  url: https://benkeks.itch.io/tempusfugit
+  venue: itch.io
+  report: https://doi.org/10.48550/arXiv.2607.05062
+  source: https://github.com/benkeks/tempus-fugit
+  tags: [game, temporal-logic]
+  tech: [phaser, typescript]
+  area: software-engineering
