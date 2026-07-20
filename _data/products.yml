@@ -1159,3 +1159,13 @@
   tags: [game, temporal-logic]
   tech: [phaser, typescript]
   area: software-engineering
+- id: galop26-energy-generalized-eq-checking-talk
+  title: "Energy Games for Generalized Equivalence Checking"
+  short_title: "Energy Games for Equivalence Checking"
+  kind: talk
+  date: 2026-07-19
+  pos_date: 2026-07
+  venue: GALOP @ FLoC, 
+  venue_url: https://galop-2026.lacl.fr/
+  area: equivalences
+  url: https://prezi.com/view/NdIwacrxF89WDP9jQ1jj/
