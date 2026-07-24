@@ -1165,7 +1165,19 @@
   kind: talk
   date: 2026-07-19
   pos_date: 2026-07
-  venue: GALOP @ FLoC, 
+  venue: GALOP @ FLoC 
   venue_url: https://galop-2026.lacl.fr/
   area: equivalences
   url: https://prezi.com/view/NdIwacrxF89WDP9jQ1jj/
+- id: perr26-energy-generalized-eq-checking-talk
+  title: "Process Equivalence Checking as Abstract Interpretation"
+  kind: talk
+  date: 2026-07-24
+  pos_date: 2026-08
+  venue: PERR @ FLoC
+  venue_url: https://perr-workshop.github.io/2026/program/
+  area: equivalences
+  url: https://prezi.com/view/RE5TtzhDbSTGyMnilSkf/
+  report: https://perr-workshop.github.io/2026/program/perr-final5.pdf
+  tags: [equivalence-spectrum, abstract-interpretation, galois-connections]
+  tech: ["lean"]
