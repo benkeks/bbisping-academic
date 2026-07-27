@@ -1170,6 +1170,7 @@
   area: equivalences
   url: https://prezi.com/view/NdIwacrxF89WDP9jQ1jj/
 - id: perr26-energy-generalized-eq-checking-talk
+  short_title: "Equivalence Checking as Abstract Interpretation"
   title: "Process Equivalence Checking as Abstract Interpretation"
   kind: talk
   date: 2026-07-24
@@ -1181,3 +1182,17 @@
   report: https://perr-workshop.github.io/2026/program/perr-final5.pdf
   tags: [equivalence-spectrum, abstract-interpretation, galois-connections]
   tech: ["lean"]
+- id: teal26-tempus-fugit-talk
+  title: "Talk: Tempus fugit: Anyone can understand temporal logic if they have to save the realm"
+  short_title: "Talk: Tempus fugit"
+  kind: talk
+  url: https://benkeks.github.io/tempus-fugit-paper
+  pos_date: 2026-08
+  date: 2026-07-25
+  venue: "TEAL @ FLoC 2026"
+  venue_url: https://teal.cs.brown.edu/floc2026/
+  area: software-engineering
+  tags: [game, temporal-logic]
+  report: https://doi.org/10.48550/arXiv.2607.05062
+  links:
+    accompanies: [itch2026-tempus-fugit]
