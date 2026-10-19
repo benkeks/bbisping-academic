@@ -13,17 +13,26 @@
 # - location: optional location string
 # - url: optional link with more information
 # - description: optional Markdown description
+- id: mcf26centralesupelec
+  title: "Maître de Conférences in computer science"
+  short_title: "Senior lecturer @ CentraleSupélec"
+  kind: position
+  start: 2026-10
+  organization: MICS, CentraleSupélec, Université Paris-Saclay
+  organization_url: https://mics.centralesupelec.fr/
+  location: Gif-sur-Yvette, France
 - id: postdoc25orange
   title: "Postdoc in cyber security"
   short_title: "Postdoc @ IP Paris"
   kind: position
   start: 2025-10
-  organization: Télécom SudParis, Institut Polytechnique de Paris
+  end: 2026-09
+  organization: SAMOVAR, Télécom SudParis, Institut Polytechnique de Paris
   organization_url: https://www.telecom-sudparis.eu/
   location: Palaiseau, France
 - id: research18mtv
   title: "Research assistant in concurrency theory"
-  short_title: "Research Assistant @ TU Berlin"
+  short_title: "Research assistant @ TU Berlin"
   kind: position
   start: 2018-10
   end: 2025-09

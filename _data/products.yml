@@ -872,7 +872,7 @@
   date: 2024-07
   venue: Information and Computation
   venue_url: https://www.sciencedirect.com/special-issue/10K5Q031MWR
-  tags: [contrasimilarity, game characterization, complxity, modal logics, highlight]
+  tags: [contrasimilarity, game characterization, complexity, modal logics, highlight]
   area: weak-equivalences
   links:
     continues: [expresssos21-contrasim-game]
@@ -1196,3 +1196,16 @@
   report: https://doi.org/10.48550/arXiv.2607.05062
   links:
     accompanies: [itch2026-tempus-fugit]
+
+- id: iac2026-decidi
+  title: "Deciding All Behavioral Equivalences at Once II: The Silent-Step Spectrum"
+  short_title: "Deciding All Behavioral Equivalences at Once II"
+  kind: article
+  authors: [Benjamin Bisping, David N. Jansen]
+  url: https://doi.org/10.1016/j.ic.2026.105499
+  date: 2026-09
+  venue: Information and Computation
+  tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games, highlight]
+  area: weak-equivalences
+  links:
+    continues: [expresssos24-energy-game-weak-spectrum-paper]
