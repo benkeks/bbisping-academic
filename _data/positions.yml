@@ -15,7 +15,7 @@
 # - description: optional Markdown description
 - id: mcf26centralesupelec
   title: "Maître de Conférences in computer science"
-  short_title: "Senior lecturer @ CentraleSupélec"
+  short_title: "Assistant Professor @ CentraleSupélec"
   kind: position
   start: 2026-10
   organization: MICS, CentraleSupélec, Université Paris-Saclay
@@ -36,7 +36,7 @@
   kind: position
   start: 2018-10
   end: 2025-09
-  organization: MTV Technische Universität Berlin
+  organization: MTV, Technische Universität Berlin
   organization_url: https://tu.berlin/mtv
   location: Berlin, Germany
   description: "Conducting research on the semantics and security of distributed systems."

@@ -1197,14 +1197,38 @@
   links:
     accompanies: [itch2026-tempus-fugit]
 
-- id: iac2026-decidi
+- id: gh2026-compareverif
+  title: "CompareVerif: ProVerif Batch Analysis for Protocol Comparison"
+  short_title: "CompareVerif"
+  authors: [Benjamin Bisping, Philipp Schlehuber-Cassier, Nicolas Matei]
+  kind: tool
+  url: https://github.com/benkeks/compareverif
+  venue: SAMOVAR, Télécom SudParis, Institut Polytechnique de Paris
+  date: 2026-03-26
+  pos_date: 2026-02
+  area: distributed-algorithms
+- id: ma2026-nm
+  title: "Quantitative Security Evaluation of Protocols: From Symbolic Verification towards Timed Models"
+  authors: Nicolas Matei
+  kind: advising
+  date: 2026-09
+  venue: SAMOVAR, Télécom SudParis, Institut Polytechnique de Paris
+  supervisors: [Natalia Kushik, Benjamin Bisping, Philipp Schlehuber-Cassier]
+  tags: [security, cryptography, master-internship, master]
+  tech: ["proverif", "uppaal"]
+  url: https://github.com/NicolasMatei/master_thesis
+  area: distributed-algorithms
+
+- id: iac2026-all-at-once-ii-silent-step
   title: "Deciding All Behavioral Equivalences at Once II: The Silent-Step Spectrum"
   short_title: "Deciding All Behavioral Equivalences at Once II"
   kind: article
   authors: [Benjamin Bisping, David N. Jansen]
   url: https://doi.org/10.1016/j.ic.2026.105499
   date: 2026-09
+  pos_date: 2026-10
   venue: Information and Computation
+  venue_url: https://www.sciencedirect.com/special-issue/10G0HTXLJX1
   tags: [equivalence-spectrum, modal-logics, branching-bisimilarity, game-characterizations, energy-games, highlight]
   area: weak-equivalences
   links:

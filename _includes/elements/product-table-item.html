@@ -29,6 +29,8 @@
     {% if product_kind == "advising" %}
         {% if product.tags contains "bachelor" %}
         <span class="product-kind">(Bachelor thesis)</span>
+        {% elsif product.tags contains "master-internship" %}
+        <span class="product-kind">(Master internship)</span>
         {% elsif product.tags contains "master" %}
         <span class="product-kind">(Master thesis)</span>
         {% endif %}
