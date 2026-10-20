@@ -108,12 +108,12 @@ main.container {
 }
 .cv-position-title,
 .cv-position-title:visited {
-  color: $primary;
+  color: var(--bs-body-color);
   font-weight: 700;
 }
-.cv-position-organization {
-  font-weight: 600;
-  margin-top: .15rem;
+[data-theme="dark"] .cv-position-title,
+[data-theme="dark"] .cv-position-title:visited {
+  color: white;
 }
 .cv-position-date-range,
 .cv-position-location {

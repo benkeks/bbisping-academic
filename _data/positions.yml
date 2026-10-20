@@ -14,8 +14,8 @@
 # - url: optional link with more information
 # - description: optional Markdown description
 - id: mcf26centralesupelec
-  title: "Maître de Conférences in computer science"
-  short_title: "Assistant Professor @ CentraleSupélec"
+  title: "Maître de conférences in computer science"
+  short_title: "Assistant professor @ CentraleSupélec"
   kind: position
   start: 2026-10
   organization: MICS, CentraleSupélec, Université Paris-Saclay

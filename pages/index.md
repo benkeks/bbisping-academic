@@ -36,16 +36,6 @@ weight: 1
   aria-expanded="false">
   <div class="cv-position-handle">{{ position.short_title | default: position.organization | default: position.title }}</div>
   <div class="cv-position-card">
-    {% if position.kind %}
-    <div class="cv-position-kind">{{ position.kind }}</div>
-    {% endif %}
-    <div class="cv-position-title-row">
-      {% if position.url %}
-      <a href="{{ position.url }}" class="cv-position-title">{{ position.title }}</a>
-      {% else %}
-      <span class="cv-position-title">{{ position.title }}</span>
-      {% endif %}
-    </div>
     {% if position.organization %}
     <div class="cv-position-organization">
       {% if position.organization_url %}
@@ -55,6 +45,13 @@ weight: 1
       {% endif %}
     </div>
     {% endif %}
+    <div class="cv-position-title-row">
+      {% if position.url %}
+      <a href="{{ position.url }}" class="cv-position-title">{{ position.title }}</a>
+      {% else %}
+      <span class="cv-position-title">{{ position.title }}</span>
+      {% endif %}
+    </div>
     <div class="cv-position-date-range">
       {{ position.start | date: "%Y-%m" }} – {% if position.end %}{{ position.end | date: "%Y-%m" }}{% else %}present{% endif %}
     </div>
